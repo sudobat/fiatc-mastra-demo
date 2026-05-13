@@ -8,6 +8,7 @@ import { Observability, MastraStorageExporter, MastraPlatformExporter, Sensitive
 import { weatherWorkflow } from './workflows/weather-workflow';
 import { weatherAgent } from './agents/weather-agent';
 import { toolCallAppropriatenessScorer, completenessScorer, translationScorer } from './scorers/weather-scorer';
+import { MastraEditor } from '@mastra/editor';
 
 export const mastra = new Mastra({
   workflows: { weatherWorkflow },
@@ -41,4 +42,5 @@ export const mastra = new Mastra({
       },
     },
   }),
+  editor: new MastraEditor(),
 });

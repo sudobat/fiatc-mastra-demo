@@ -20,8 +20,6 @@ from dataclasses import dataclass, field, asdict
 from datetime import datetime
 from pathlib import Path
 
-import httpx
-
 # ---------------------------------------------------------------------------
 # Definición de las 100 preguntas
 # ---------------------------------------------------------------------------
@@ -292,6 +290,8 @@ class Resultado:
 # ---------------------------------------------------------------------------
 
 def llamar_api(url_base: str, pregunta: str, timeout: float = 60.0) -> dict:
+    import httpx
+
     with httpx.Client(timeout=timeout) as client:
         r = client.post(
             f"{url_base}/chat",
@@ -323,6 +323,8 @@ def validar(caso: Caso, respuesta: str) -> tuple[bool, str]:
 
 
 def ejecutar_bateria(url_base: str, pausa: float) -> list[Resultado]:
+    import httpx
+
     resultados: list[Resultado] = []
     total = len(CASOS)
 
@@ -466,6 +468,8 @@ def generar_informe(resultados: list[Resultado], dir_tests: Path) -> None:
 # ---------------------------------------------------------------------------
 
 def main() -> None:
+    import httpx
+
     parser = argparse.ArgumentParser(description="Batería 100 preguntas Guía Médica FIATC")
     parser.add_argument("--url", default="http://localhost:8000", help="URL base del backend")
     parser.add_argument("--pausa", type=float, default=2.0, help="Segundos entre peticiones")

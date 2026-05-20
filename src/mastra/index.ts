@@ -1,7 +1,7 @@
 import { Mastra } from '@mastra/core/mastra';
 import { PinoLogger } from '@mastra/loggers';
 import { DuckDBStore } from '@mastra/duckdb';
-import { DatasetsLibSQL, ExperimentsLibSQL, SchedulesLibSQL } from '@mastra/libsql';
+import { DatasetsLibSQL, ExperimentsLibSQL, SchedulesLibSQL, ScoresLibSQL } from '@mastra/libsql';
 import { MSSQLStore } from '@mastra/mssql';
 import { Observability, MastraStorageExporter, MastraPlatformExporter, SensitiveDataFilter } from '@mastra/observability';
 import { weatherWorkflow } from './workflows/weather-workflow';
@@ -10,6 +10,7 @@ import { guiaMedicaAgent } from './agents/guia-medica-agent';
 import { mastraMonitoringAgent } from './agents/mastra-monitoring-agent';
 import { toolCallAppropriatenessScorer, completenessScorer, translationScorer } from './scorers/weather-scorer';
 import { MastraEditor } from '@mastra/editor';
+import { createAnswerRelevancyScorer } from '@mastra/evals/scorers/prebuilt';
 
 function createMssqlStorage() {
   const password = process.env.MSSQL_SA_PASSWORD;
@@ -49,9 +50,12 @@ function createStorage() {
 
   // Add non-MSSQL domains on the same store so MSSQLStore.init() connects the pool
   // before any domain init (wrapping in an outer MastraCompositeStore skips that).
+  // Scores use LibSQL: MSSQL mastra_scorers prompt columns are NVARCHAR(400) and truncate
+  // built-in scorer prompts (e.g. answer-relevancy analyzePrompt).
   storage.stores = {
     ...storage.stores,
     observability,
+    scores: new ScoresLibSQL({ url: libsqlUrl }),
     schedules: new SchedulesLibSQL({ url: libsqlUrl }),
     datasets: new DatasetsLibSQL({ url: libsqlUrl }),
     experiments: new ExperimentsLibSQL({ url: libsqlUrl }),
@@ -60,10 +64,12 @@ function createStorage() {
   return storage;
 }
 
+const answerSimilarityScorer = createAnswerRelevancyScorer({ model: 'openai/gpt-5.4' });
+
 export const mastra = new Mastra({
   workflows: { weatherWorkflow },
   agents: { weatherAgent, guiaMedicaAgent, mastraMonitoringAgent },
-  scorers: { toolCallAppropriatenessScorer, completenessScorer, translationScorer },
+  scorers: { toolCallAppropriatenessScorer, completenessScorer, translationScorer, answerSimilarityScorer },
   storage: createStorage(),
   logger: new PinoLogger({
     name: 'Mastra',

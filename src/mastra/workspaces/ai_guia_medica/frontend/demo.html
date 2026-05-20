@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Demo POC - Agente Guía Médica FIATC</title>
+    <link rel="stylesheet" href="chat-widget.css" />
+    <!-- Leaflet (mapas) -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      crossorigin=""
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Guía Médica FIATC <span class="tag">POC chat</span></h1>
+      <p>Pregunta en lenguaje natural por especialistas, ubicación o síntomas. Datos sintéticos.</p>
+    </header>
+
+    <main class="contenedor">
+      <div id="fiatc-chat"></div>
+    </main>
+
+    <script src="chat-widget.js"></script>
+    <script>
+      FiatcChat.init({
+        contenedor: document.getElementById("fiatc-chat"),
+        endpoint: "http://localhost:8000/chat",
+        endpointStream: "http://localhost:8000/chat/stream",
+        // URL base del sistema de reservas FIATC. El widget añade el hash con el JSON del profesional.
+        endpointReserva: "https://guiamedica.fiatc.es/webapps/js/view_corporativa",
+        saludoInicial:
+          "Hola, soy el asistente de la Guía Médica FIATC. Cuéntame qué tipo de profesional necesitas o describe tu motivo de consulta y te ayudo a encontrar al especialista adecuado.",
+        sugerencias: [
+          "Busco un cardiólogo en Barcelona, Cód. Postal 08017",
+          "Necesito un traumatólogo en Barcelona con reserva online",
+          "Tengo dolor de espalda, ¿qué especialista necesito?",
+          "Mi hijo tiene fiebre y vivimos en Chamartín CP 28036, ¿a dónde puedo ir?"
+        ]
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,755 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Guía Médica FIATC</title>
+
+    <!-- Widget styles -->
+    <link rel="stylesheet" href="chat-widget-v2.css" />
+    <link rel="stylesheet" href="chat-widget-embedded.css" />
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+
+    <style>
+      /* ============================================================
+         CSS que replica el diseño real de guiamedica.fiatc.es
+         Todo el selector está bajo .site-main para evitar conflictos
+         con los estilos del chat widget.
+         ============================================================ */
+
+      /* --- Utilidades de espaciado -------------------------------- */
+      .site-main .spacing--vertical-1  { height: 4px;  display: block; }
+      .site-main .spacing--vertical-2  { height: 8px;  display: block; }
+      .site-main .spacing--vertical-3  { height: 12px; display: block; }
+      .site-main .spacing--vertical-4  { height: 16px; display: block; }
+      .site-main .spacing--vertical-6  { height: 24px; display: block; }
+      .site-main .spacing--horizontal-1 { width: 4px;  display: inline-block; }
+      .site-main .spacing--horizontal-2 { width: 8px;  display: inline-block; }
+      .site-main .spacing--horizontal-3 { width: 12px; display: inline-block; }
+      .site-main .spacing--horizontal-4 { width: 16px; display: inline-block; }
+      .site-main .spacing--horizontal-6 { width: 24px; display: inline-block; }
+
+      /* --- Contenedor general ------------------------------------- */
+      .site-main .block {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 28px;
+        box-sizing: border-box;
+      }
+
+      /* --- Top bar (franja superior) ------------------------------ */
+      .site-main .top-bar {
+        background: #002346;
+        padding: 7px 0;
+        font-size: 12px;
+      }
+      .site-main .top-bar .block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .site-main .top-bar__section {
+        display: flex;
+        align-items: center;
+      }
+      .site-main .top-bar__page {
+        color: rgba(255,255,255,0.75);
+        text-decoration: none;
+        transition: color 0.15s;
+        font-size: 12px;
+      }
+      .site-main .top-bar__page:hover { color: white; }
+      .site-main .top-bar__contact .top-bar__icon {
+        height: 13px;
+        width: 13px;
+        vertical-align: middle;
+        filter: brightness(0) invert(1);
+        opacity: 0.75;
+      }
+      .site-main .contact__number {
+        color: rgba(255,255,255,0.75);
+        text-decoration: none;
+        font-size: 12px;
+      }
+      .site-main .contact__number:hover { color: white; }
+      .site-main .top-bar__idiom {
+        color: rgba(255,255,255,0.6);
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+      }
+      .site-main .top-bar__idiom--active { color: white; }
+      .site-main .top-bar__separator { color: rgba(255,255,255,0.35); }
+
+      /* --- Menu bar (cabecera con logo) --------------------------- */
+      .site-main .menu-bar {
+        background: white;
+        padding: 10px 0;
+        border-bottom: 1px solid #e8ecf0;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+      }
+      .site-main .menu-bar .block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .site-main .menu-bar__logo { display: flex; align-items: center; }
+      .site-main .menu-bar__logo-img {
+        height: 46px;
+        display: block;
+      }
+      .site-main .menu-bar__navbar { flex: 1; }
+      .site-main .navbar-toggler  { display: none; }
+      .site-main .navbar-collapse { display: none; } /* nav colapsada, solo logo en desktop demo */
+      .site-main .menu-bar__login { display: flex; align-items: center; }
+      .site-main .menu-bar__client-area {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        color: #003a70;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 600;
+        border: 1.5px solid #003a70;
+        padding: 6px 14px;
+        border-radius: 4px;
+        transition: background 0.15s, color 0.15s;
+      }
+      .site-main .menu-bar__client-area:hover {
+        background: #003a70;
+        color: white;
+      }
+      .site-main .menu-bar__logo-client-icon {
+        width: 16px; height: 16px;
+        background: url("https://guiamedica.fiatc.es/res/css_corp/assets/iconos/area-cliente.svg") center/contain no-repeat;
+        display: inline-block;
+      }
+      .site-main .login__block { display: none; }
+      .site-main .menu-bar__phone-icon { display: none; }
+      .site-main .phone-icon { display: none; }
+
+      /* --- Título de sección ------------------------------------- */
+      .site-main .header-title {
+        background: linear-gradient(100deg, #003a70 55%, #0055a0 100%);
+        padding: 26px 28px;
+        position: relative;
+        overflow: hidden;
+      }
+      .site-main .header-title::after {
+        content: '';
+        position: absolute;
+        right: -60px; top: -40px;
+        width: 260px; height: 160px;
+        background: rgba(255,255,255,0.04);
+        border-radius: 50%;
+      }
+      .site-main .header-title__title {
+        margin: 0;
+        font-size: 26px;
+        font-weight: 700;
+        color: white;
+        letter-spacing: -0.2px;
+      }
+
+      /* --- Zona principal del formulario -------------------------- */
+      .site-main .guia {
+        background: #f0f3f7;
+        padding: 20px 0 28px;
+      }
+      .site-main .guia.guia-medica .block {
+        background: white;
+        border: 1px solid #d9dee5;
+        border-radius: 4px;
+        padding: 24px 28px;
+      }
+      .site-main .guides__column.guides__external-section { width: 100%; }
+
+      .site-main #errorMessages {
+        margin-bottom: 8px;
+      }
+      .site-main .alert { padding: 10px 14px; border-radius: 4px; font-size: 13px; }
+      .site-main .alert-danger {
+        background: #fdf0f0; border: 1px solid #f5c6cb; color: #721c24;
+      }
+
+      .site-main h3 {
+        font-size: 18px; color: #003a70; margin: 0 0 8px; font-weight: 700;
+      }
+      .site-main h5.guia__title {
+        font-size: 13px; color: #555; margin: 0; font-weight: 400; line-height: 1.55;
+      }
+      .site-main .guia__title-red {
+        color: #c0392b; font-size: 12px; display: inline; margin-left: 4px;
+      }
+
+      /* --- Formulario -------------------------------------------- */
+      .site-main .form-guia.two-cols {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px 24px;
+        margin-top: 0;
+      }
+      .site-main .form-guia__item { display: flex; flex-direction: column; }
+      .site-main .form-guia__item-100 { grid-column: 1 / -1; }
+      .site-main .form-guia__button {
+        grid-column: 1 / -1;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 4px;
+      }
+      .site-main .form-guia label {
+        font-size: 12px; color: #333; margin-bottom: 4px;
+        font-weight: 500; display: flex; align-items: center; gap: 2px;
+        cursor: pointer;
+      }
+      .site-main .form-guia label span { color: #c0392b; }
+      .site-main .form-guia select,
+      .site-main .form-guia input[type="text"] {
+        padding: 7px 10px;
+        border: 1px solid #cdd3da;
+        border-radius: 4px;
+        font-size: 13px;
+        color: #1d1d1d;
+        background: white;
+        width: 100%;
+        box-sizing: border-box;
+        transition: border-color 0.15s;
+      }
+      .site-main .form-guia select:focus,
+      .site-main .form-guia input[type="text"]:focus {
+        border-color: #0062a8;
+        outline: none;
+        box-shadow: 0 0 0 2px rgba(0,98,168,0.12);
+      }
+      .site-main .form-guia input[type="radio"],
+      .site-main .form-guia input[type="checkbox"] {
+        margin-right: 6px;
+        accent-color: #003a70;
+        flex-shrink: 0;
+      }
+      .site-main .form-guia__selector label {
+        flex-direction: row;
+        align-items: center;
+        font-weight: 400;
+        color: #444;
+        font-size: 13px;
+        margin-bottom: 0;
+      }
+      /* Alinear radio buttons verticalmente */
+      .site-main .form-guia.two-cols > .form-guia__item.form-guia__selector:first-child,
+      .site-main .form-guia.two-cols > .form-guia__item.form-guia__selector:nth-child(2),
+      .site-main .form-guia.two-cols > .form-guia__item.form-guia__selector:nth-child(3) {
+        justify-content: center;
+      }
+      .site-main .form__item-validation-message {
+        font-size: 11px; color: #c0392b; display: none; margin-top: 2px;
+      }
+      .site-main #btnBuscar {
+        background: #003a70;
+        color: white;
+        border: none;
+        padding: 9px 36px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background 0.15s;
+      }
+      .site-main #btnBuscar:hover { background: #0062a8; }
+
+      /* --- Sección de teléfonos ---------------------------------- */
+      .site-main .guides__telephone-asistance {
+        margin-top: 24px;
+        padding: 20px 24px;
+        background: #f5f6f8;
+        border-radius: 4px;
+        border: 1px solid #d9dee5;
+      }
+      .site-main .telephone-asistance__title {
+        margin: 0;
+        font-size: 15px;
+        color: #003a70;
+        font-weight: 700;
+      }
+      .site-main .telephone-asistance__target.two-cols {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+      .site-main .target__title {
+        font-weight: 600;
+        font-size: 13px;
+        color: #333;
+        margin: 0;
+      }
+      .site-main .target__link {
+        color: #0062a8;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+        display: block;
+      }
+      .site-main .target__link:hover { text-decoration: underline; }
+
+      /* --- Footer ----------------------------------------------- */
+      .site-main .footer {
+        background: #003a70;
+        color: white;
+        padding: 28px 0 16px;
+        margin-top: 0;
+      }
+      .site-main .footer__footer-menu {
+        display: flex;
+        align-items: flex-start;
+        gap: 28px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+      }
+      .site-main .footer-menu__logo img {
+        height: 34px;
+        display: block;
+        filter: brightness(0) invert(1);
+      }
+      .site-main .footer-menu__footer-links {
+        display: flex;
+        gap: 20px;
+        flex: 1;
+      }
+      .site-main .footer-links__block {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      .site-main .footer-links__link {
+        color: rgba(255,255,255,0.7);
+        font-size: 12px;
+        text-decoration: none;
+      }
+      .site-main .footer-links__link:hover { color: white; text-decoration: underline; }
+      .site-main .footer-menu__footer-rrss {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: auto;
+      }
+      .site-main .footer-rrss__img {
+        height: 22px; width: 22px; opacity: 0.75;
+        transition: opacity 0.15s;
+      }
+      .site-main .footer-rrss__img:hover { opacity: 1; }
+      .site-main .footer__privacy-policy {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+        padding-top: 14px;
+        border-top: 1px solid rgba(255,255,255,0.15);
+        flex-wrap: wrap;
+      }
+      .site-main .privacy-policy__link a {
+        color: rgba(255,255,255,0.55);
+        font-size: 11px;
+        text-decoration: none;
+      }
+      .site-main .privacy-policy__link a:hover { color: white; }
+      .site-main .footer .separator {
+        width: 1px; height: 11px;
+        background: rgba(255,255,255,0.25);
+        display: inline-block;
+      }
+      .site-main .footer__copy-right {
+        font-size: 11px;
+        color: rgba(255,255,255,0.45);
+        margin-top: 8px;
+      }
+
+      /* Ocultar elementos no necesarios en la demo */
+      .site-main .cookie-bar,
+      .site-main #onetrust-consent-sdk,
+      .site-main .d-block.d-md-none,
+      .site-main .idioms-mobile { display: none !important; }
+    </style>
+  </head>
+  <body>
+
+    <!-- ══════════════════════════════════════════════════════════
+         CABECERAS: ocupan el ancho completo (fuera del split)
+         ══════════════════════════════════════════════════════════ -->
+    <div class="fiatc-headers site-main">
+
+      <!-- TOP BAR -->
+      <div class="top-bar">
+        <div class="block">
+          <div class="top-bar__section top-bar__pages">
+            <a class="top-bar__page" href="https://www.fiatc.es/informacion-corporativa" target="_blank">Información corporativa</a>
+            <div class="spacing--horizontal-2"></div>
+            <a class="top-bar__page" href="https://e-mediador.fiatc.es/" target="_blank">eMediador</a>
+            <div class="spacing--horizontal-2"></div>
+            <a class="top-bar__page" href="https://e-profesional.fiatc.es/" target="_blank">eProfesional</a>
+          </div>
+          <div class="top-bar__section top-bar__contact">
+            <img class="top-bar__icon contact__img" src="https://guiamedica.fiatc.es/res/css_corp/assets/iconos/phone-icon.svg" alt="Teléfono">
+            <div class="spacing--horizontal-1"></div>
+            <a class="contact__number" href="https://www.fiatc.es/contactanos" target="_blank">Contáctanos</a>
+          </div>
+          <div class="top-bar__section top-bar__idioms-searcher">
+            <div class="top-bar__idioms">
+              <a class="top-bar__idiom top-bar__idiom--active" href="#">ES</a>
+              <div class="spacing--horizontal-1"></div>
+              <span class="top-bar__separator">|</span>
+              <div class="spacing--horizontal-1"></div>
+              <a class="top-bar__idiom" href="#">CA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MENU BAR -->
+      <header class="menu-bar">
+        <div class="block">
+          <div class="menu-bar__section menu-bar__logo">
+            <a href="https://www.fiatc.es" target="_blank">
+              <img class="menu-bar__logo-img" src="https://guiamedica.fiatc.es/res/shared/logos/fiatc/logo_header_es.svg" alt="Fiatc">
+            </a>
+          </div>
+          <div class="menu-bar__section menu-bar__navbar"></div>
+          <div class="menu-bar__section menu-bar__login">
+            <a class="menu-bar__client-area" href="https://e-cliente.fiatc.es/" target="_blank">
+              <div class="menu-bar__logo-client-icon"></div>
+              <div class="spacing--horizontal-1"></div>
+              <span>Área de cliente</span>
+            </a>
+          </div>
+        </div>
+      </header>
+
+    </div><!-- /fiatc-headers -->
+
+
+    <div class="page-wrapper">
+
+      <!-- ══════════════════════════════════════════════════════════
+           IZQUIERDA: contenido de guiamedica.fiatc.es
+           ══════════════════════════════════════════════════════════ -->
+      <div class="site-main">
+
+        <!-- TÍTULO DE PÁGINA -->
+        <div class="header-title">
+          <h1 class="header-title__title">Guía médica de Fiatc</h1>
+        </div>
+
+        <!-- FORMULARIO DE BÚSQUEDA -->
+        <div class="guia guia-medica mt-2">
+          <div class="block">
+            <div class="guides__column guides__external-section">
+              <div id="errorMessages" style="display:none;"></div>
+              <h3>Cuadro médico</h3>
+              <h5 class="guia__title">
+                Consulta el cuadro médico de FIATC. Ponemos a tu disposición una amplia red sanitaria con más de 29.000 profesionales en centros propios y concertados.
+                <span class="guia__title-red">Campo obligatorio *</span>
+              </h5>
+              <div class="spacing--vertical-6"></div>
+
+              <form id="cercamedica" action="https://guiamedica.fiatc.es/resultats-cerca-medica/" method="get" target="_blank">
+                <input type="hidden" id="cercant"       name="cercant"       value="1">
+                <input type="hidden" id="search_type"   name="search_type"   value="1">
+                <input type="hidden" id="tipoVisual"    name="tipoVisual"    value="C">
+
+                <div id="divFiltros" class="form-guia two-cols">
+
+                  <div class="form-guia__item form-guia__selector">
+                    <label><input name="tipoBusqueda" type="radio" value="P" checked> Médicos y hospitales</label>
+                  </div>
+                  <div class="form-guia__item form-guia__selector">
+                    <label><input name="tipoBusqueda" type="radio" value="U"> Urgencias Médicas</label>
+                  </div>
+                  <div class="form-guia__item form-guia__selector">
+                    <label><input name="tipoBusqueda" type="radio" value="D"> Pruebas diagnósticas</label>
+                  </div>
+
+                  <!-- Columna vacía para mantener la alineación del grid -->
+                  <div class="form-guia__item"></div>
+
+                  <div class="form-guia__item form-guia__selector form__item--required">
+                    <label for="quadre">Cuadro médico<span> *</span></label>
+                    <select id="quadre" name="quadre">
+                      <option value="999" selected>Seleccione cuadro médico</option>
+                      <option value="0">Cuadro completo</option>
+                      <option value="2">Medifiatc Start</option>
+                      <option value="4">Medifiatc CORP - Colectivos - Estudiantes</option>
+                      <option value="5">Medifiatc ADVANCE</option>
+                    </select>
+                  </div>
+
+                  <div class="form-guia__item form-guia__selector form__item--required">
+                    <label for="provincia">Provincia<span> *</span></label>
+                    <select id="provincia" name="provincia">
+                      <option value="0" selected>Seleccionar una provincia</option>
+                      <option value="alava">ALAVA</option>
+                      <option value="albacete">ALBACETE</option>
+                      <option value="alicante">ALICANTE</option>
+                      <option value="almeria">ALMERIA</option>
+                      <option value="asturias">ASTURIAS</option>
+                      <option value="baleares">BALEARES</option>
+                      <option value="barcelona">BARCELONA</option>
+                      <option value="burgos">BURGOS</option>
+                      <option value="cadiz">CADIZ</option>
+                      <option value="cantabria">CANTABRIA</option>
+                      <option value="castellon">CASTELLON</option>
+                      <option value="cordoba">CORDOBA</option>
+                      <option value="girona">GIRONA</option>
+                      <option value="granada">GRANADA</option>
+                      <option value="guipuzcoa">GUIPUZCOA</option>
+                      <option value="la-corua">LA CORUÑA</option>
+                      <option value="la-rioja">LA RIOJA</option>
+                      <option value="las-palmas">LAS PALMAS</option>
+                      <option value="leon">LEON</option>
+                      <option value="lleida">LLEIDA</option>
+                      <option value="lugo">LUGO</option>
+                      <option value="madrid">MADRID</option>
+                      <option value="malaga">MALAGA</option>
+                      <option value="murcia">MURCIA</option>
+                      <option value="navarra">NAVARRA</option>
+                      <option value="orense">ORENSE</option>
+                      <option value="palencia">PALENCIA</option>
+                      <option value="pontevedra">PONTEVEDRA</option>
+                      <option value="salamanca">SALAMANCA</option>
+                      <option value="segovia">SEGOVIA</option>
+                      <option value="sevilla">SEVILLA</option>
+                      <option value="soria">SORIA</option>
+                      <option value="tarragona">TARRAGONA</option>
+                      <option value="tenerife">TENERIFE</option>
+                      <option value="teruel">TERUEL</option>
+                      <option value="toledo">TOLEDO</option>
+                      <option value="valencia">VALENCIA</option>
+                      <option value="valladolid">VALLADOLID</option>
+                      <option value="vizcaya">VIZCAYA</option>
+                      <option value="zamora">ZAMORA</option>
+                      <option value="zaragoza">ZARAGOZA</option>
+                    </select>
+                    <div class="form__item-validation-message">Provincia incorrecta</div>
+                  </div>
+
+                  <div class="form-guia__item form-guia__selector">
+                    <label for="municipi">Población</label>
+                    <select id="municipi" name="municipi">
+                      <option value="" selected>Seleccionar una población</option>
+                    </select>
+                  </div>
+
+                  <div class="form-guia__item form-guia__text">
+                    <label for="codipostal">Código Postal</label>
+                    <input type="text" id="codipostal" name="codipostal" maxlength="5">
+                  </div>
+
+                  <div class="form-guia__item form-guia__selector form__item--required">
+                    <label for="especialitat">Especialidad<span> *</span></label>
+                    <select id="especialitat" name="especialitat">
+                      <option value="-1" selected>Seleccionar una especialidad</option>
+                      <option value="alergologia">ALERGOLOGIA</option>
+                      <option value="analisis-clinicos">ANALISIS CLINICOS</option>
+                      <option value="aparato-digestivo">APARATO DIGESTIVO</option>
+                      <option value="cardiologia">CARDIOLOGIA</option>
+                      <option value="cir-generalap-digestivo">CIR. GENERAL/AP. DIGESTIVO</option>
+                      <option value="cir-plasticareparad">CIR.PLASTICA/REPARAD</option>
+                      <option value="cirug-cardiovascular">CIRUG.CARDIOVASCULAR</option>
+                      <option value="cirugia-maxilofacial">CIRUGIA MAXILOFACIAL</option>
+                      <option value="cirugia-pediatrica">CIRUGIA PEDIATRICA</option>
+                      <option value="cirugia-toracica">CIRUGIA TORACICA</option>
+                      <option value="dermatologia">DERMATOLOGIA</option>
+                      <option value="diagnost-por-imagen">DIAGNOST. POR IMAGEN</option>
+                      <option value="endocrino-y-nutricio">ENDOCRINO Y NUTRICIO</option>
+                      <option value="enfermeria">ENFERMERIA</option>
+                      <option value="fisioterapia">FISIOTERAPIA</option>
+                      <option value="hematologiahemotera">HEMATOLOGIA/HEMOTERA</option>
+                      <option value="logopedia">LOGOPEDIA</option>
+                      <option value="medicina-deportiva">MEDICINA DEPORTIVA</option>
+                      <option value="medicina-general">MEDICINA GENERAL</option>
+                      <option value="medicina-interna">MEDICINA INTERNA</option>
+                      <option value="nefrologia">NEFROLOGIA</option>
+                      <option value="neumologia">NEUMOLOGIA</option>
+                      <option value="neurocirugia">NEUROCIRUGIA</option>
+                      <option value="neurologia">NEUROLOGIA</option>
+                      <option value="nutricion-y-dietetica">NUTRICION Y DIETETICA</option>
+                      <option value="obstetriciaginecol-">OBSTETRICIA/GINECOL.</option>
+                      <option value="odontologia">ODONTOLOGIA</option>
+                      <option value="oftalmologia">OFTALMOLOGIA</option>
+                      <option value="oncologia-medica">ONCOLOGIA MEDICA</option>
+                      <option value="otorrinolaringologia">OTORRINOLARINGOLOGIA</option>
+                      <option value="pediatria">PEDIATRIA</option>
+                      <option value="podologia">PODOLOGIA</option>
+                      <option value="psicologia">PSICOLOGIA</option>
+                      <option value="psiquiatria">PSIQUIATRIA</option>
+                      <option value="rehabilitacion">REHABILITACION</option>
+                      <option value="resonancia-magnetica-nuclear-rmn">RESONANCIA MAGNETICA NUCLEAR - RMN</option>
+                      <option value="reumatologia">REUMATOLOGIA</option>
+                      <option value="servicio-de-urgencias-permanente-generales">SERVICIO DE URGENCIAS PERMANENTE-GENERALES</option>
+                      <option value="tomografia-axial-computerizada-tac">TOMOGRAFIA AXIAL COMPUTERIZADA - TAC</option>
+                      <option value="traumat-y-ortopedia">TRAUMAT.Y ORTOPEDIA</option>
+                      <option value="urologia">UROLOGIA</option>
+                      <option value="">TODAS</option>
+                    </select>
+                  </div>
+
+                  <div class="form-guia__item form-guia__text">
+                    <label for="elnom">Profesional o centro médico</label>
+                    <input type="text" id="elnom" name="elnom">
+                  </div>
+
+                  <div id="div_reservamedica" class="form-guia__item-100 form-guia__selector">
+                    <label>
+                      <input id="reservamedica" name="reservamedica" type="checkbox">
+                      Profesionales con reserva online de cita médica.
+                    </label>
+                  </div>
+
+                  <div class="form-guia__item-100 form-guia__button">
+                    <button type="submit" id="btnBuscar">Buscar</button>
+                  </div>
+
+                </div>
+              </form>
+
+              <div class="spacing--vertical-6"></div>
+
+              <!-- CONSULTAS E INCIDENCIAS -->
+              <div class="guides__telephone-asistance">
+                <h2 class="telephone-asistance__title">Consultas o incidencias</h2>
+                <div class="spacing--vertical-4"></div>
+                <div class="telephone-asistance__target two-cols">
+                  <div class="target__item sub-col">
+                    <p class="target__title">Urgencias Médicas</p>
+                    <div class="spacing--vertical-2"></div>
+                    <a class="target__link" href="tel:911227468">911 227 468</a>
+                    <div class="spacing--vertical-2"></div>
+                    <a class="target__link" href="tel:932825284">932 825 284</a>
+                  </div>
+                  <div class="target__item sub-col">
+                    <p class="target__title">Asistencia en el extranjero</p>
+                    <div class="spacing--vertical-2"></div>
+                    <a class="target__link" href="tel:932001819">932 001 819</a>
+                    <div class="spacing--vertical-2"></div>
+                    <a class="target__link" href="tel:915949601">915 949 601</a>
+                  </div>
+                  <div class="target__item sub-col">
+                    <p class="target__title">Atención al cliente</p>
+                    <div class="spacing--vertical-2"></div>
+                    <a class="target__link" href="tel:917015757">917 015 757</a>
+                    <div class="spacing--vertical-2"></div>
+                    <a class="target__link" href="tel:933270945">933 270 945</a>
+                    <div class="spacing--vertical-2"></div>
+                    <a class="target__link" href="tel:900252213">900 252 213</a>
+                  </div>
+                  <div class="target__item sub-col">
+                    <p class="target__title">Incidencias de la Guía Médica</p>
+                    <div class="spacing--vertical-2"></div>
+                    <a class="target__link" href="mailto:guiamedica@fiatc.es">guiamedica@fiatc.es</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+          <div class="block">
+            <div class="footer__footer-menu">
+              <div class="footer-menu__section footer-menu__logo">
+                <img alt="Fiatc" src="https://guiamedica.fiatc.es/res/shared/logos/fiatc/logo_footer_es.svg">
+              </div>
+              <div class="footer-menu__section footer-menu__footer-links">
+                <div class="footer-links__block">
+                  <a class="footer-links__link" href="https://www.fiatc.es/contactanos" target="_blank">Contáctanos</a>
+                  <a class="footer-links__link" href="https://e-cliente.fiatc.es" target="_blank">Acceso a clientes</a>
+                  <a class="footer-links__link" href="https://www.fiatc.es/informacion-corporativa" target="_blank">Trabaja con nosotros</a>
+                  <a class="footer-links__link" href="https://guiaoficinas.fiatc.es" target="_blank">Oficinas</a>
+                  <a class="footer-links__link" href="https://www.fiatc.es/app-movil" target="_blank">App Móvil</a>
+                  <a class="footer-links__link" href="https://blog.fiatc.es" target="_blank">Blog</a>
+                  <a class="footer-links__link" href="https://agentes.fiatc.es/" target="_blank">Guía agentes</a>
+                </div>
+                <div class="spacing--horizontal-6"></div>
+                <div class="footer-links__block">
+                  <a class="footer-links__link" href="https://guiamedica.fiatc.es" target="_blank">Guía médica</a>
+                  <a class="footer-links__link" href="https://guiataller.fiatc.es" target="_blank">Guía talleres</a>
+                  <a class="footer-links__link" href="https://www.fiatcresidencias.com/" target="_blank">FIATC Residencias</a>
+                  <a class="footer-links__link" href="https://www.fiatc.es/clinica-diagonal" target="_blank">Clínica Diagonal</a>
+                  <a class="footer-links__link" href="https://fiatclife.fiatc.es" target="_blank">FIATC Life</a>
+                  <a class="footer-links__link" href="http://www.agentesfiatc.es/es" target="_blank">Agentes FIATC</a>
+                  <a class="footer-links__link" href="https://www.fiatc.es/inverfiatc" target="_blank">Inverfiatc</a>
+                </div>
+              </div>
+              <div class="footer-menu__section footer-menu__footer-rrss">
+                <a href="https://twitter.com/fiatcseguros" target="_blank">
+                  <img class="footer-rrss__img" src="https://guiamedica.fiatc.es/res/css_corp/assets/redes-sociales/twitter.png" alt="Twitter">
+                </a>
+                <a href="https://www.facebook.com/fiatcseguros" target="_blank">
+                  <img class="footer-rrss__img" src="https://guiamedica.fiatc.es/res/css_corp/assets/redes-sociales/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://www.youtube.com/user/fiatcseguros" target="_blank">
+                  <img class="footer-rrss__img" src="https://guiamedica.fiatc.es/res/css_corp/assets/redes-sociales/youtube.png" alt="YouTube">
+                </a>
+                <a href="https://www.instagram.com/fiatcmutuaseguros" target="_blank">
+                  <img class="footer-rrss__img" src="https://guiamedica.fiatc.es/res/css_corp/assets/redes-sociales/instagram.png" alt="Instagram">
+                </a>
+              </div>
+            </div>
+            <div class="footer__privacy-policy">
+              <div class="privacy-policy__link">
+                <a href="https://www.fiatc.es/politica-de-cookies" target="_blank">Política de cookies</a>
+              </div>
+              <div class="separator"></div>
+              <div class="privacy-policy__link">
+                <a href="https://www.fiatc.es/condiciones-generales" target="_blank">Condiciones generales</a>
+              </div>
+              <div class="separator"></div>
+              <div class="privacy-policy__link">
+                <a href="https://www.fiatc.es/proteccion-de-datos" target="_blank">Protección de Datos</a>
+              </div>
+            </div>
+            <div class="footer__copy-right">© FIATC Seguros 2022</div>
+          </div>
+        </footer>
+
+      </div><!-- /site-main -->
+
+
+      <!-- ══════════════════════════════════════════════════════════
+           DERECHA: panel de chat siempre visible
+           ══════════════════════════════════════════════════════════ -->
+      <aside class="chat-sidebar">
+        <div class="chat-sidebar-header">
+          <div class="sidebar-titulo">
+            <strong>Asistente Guía Médica</strong>
+            <span>Dime qué necesitas y te ayudo a encontrarlo</span>
+          </div>
+          <span class="sidebar-badge">IA</span>
+        </div>
+        <div id="fiatc-chat"></div>
+      </aside>
+
+    </div><!-- /page-wrapper -->
+
+
+    <script src="chat-widget.js"></script>
+    <script>
+      FiatcChat.init({
+        contenedor: document.getElementById("fiatc-chat"),
+        endpoint: "http://localhost:8000/chat",
+        endpointStream: "http://localhost:8000/chat/stream",
+        endpointReserva: "https://guiamedica.fiatc.es/webapps/js/view_corporativa",
+        saludoInicial:
+          "Hola, soy el asistente de la Guía Médica FIATC. Cuéntame qué tipo de profesional necesitas o describe tu motivo de consulta y te ayudo a encontrar al especialista adecuado.",
+        sugerencias: [
+          "Busco un cardiólogo en Barcelona, Cód. Postal 08017",
+          "Necesito un traumatólogo en Barcelona con reserva online",
+          "Tengo dolor de espalda, ¿qué especialista necesito?",
+          "Mi hijo tiene fiebre y vivimos en Chamartín CP 28036, ¿a dónde puedo ir?"
+        ]
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1284 @@
+[
+  {
+    "id": 1,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "Busco un cardiólogo en Barcelona",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Aquí tienes el resultado para **Cardiología en Barcelona**:\n\n---\n\n🏥 **Dr. Joan Martí Puig**\n- **Especialidad:** Cardiología\n- **Centro:** Centro Médico Diagonal\n- **Dirección:** Av. Diagonal 123, Barcelona (08036)\n- **Teléfono:** 932 000 001\n- **Reserva online:** ✅ Sí\n- **Cuadros:** Cuadro completo · Medifiatc ADVANCE\n\n---\n\n> ℹ️ He realizado la búsqueda con el **Cuadro completo**. Si tienes una modalidad de póliza diferente (por ejemplo, Medifiatc Start o CORP), dímelo y filtro los resultados para tu cobertura.\n\n¿Quieres más información sobre este profesional o necesitas algo más?",
+    "herramientas_usadas": [
+      "listar_especialidades",
+      "geolocalizar",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 11.8
+  },
+  {
+    "id": 2,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "Necesito un pediatra en Madrid",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento no he encontrado pediatras disponibles en Madrid dentro del cuadro médico de FIATC. Esto puede deberse a que la búsqueda no ha arrojado resultados con los filtros actuales.\n\nTe sugiero las siguientes opciones:\n\n1. **Ampliar la búsqueda** a otra zona o municipio cercano (por ejemplo, Alcobendas, Pozuelo, Getafe...).\n2. **Verificar tu modalidad de póliza** — estoy buscando en el *Cuadro completo*, pero si tienes una modalidad diferente (como *Medifiatc Start* o *Medifiatc ADVANCE*), los resultados pueden variar.\n3. **Contactar directamente con FIATC** para que un agente te oriente:\n   - 📞 **900 202 202** (atención al asegurado)\n\n¿Quieres que pruebe con otra ubicación o modalidad de póliza?",
+    "herramientas_usadas": [
+      "listar_especialidades",
+      "geolocalizar",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 12.0
+  },
+  {
+    "id": 3,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "¿Hay dermatólogos en Valencia?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento **no hay dermatólogos disponibles en el cuadro médico para Valencia** según los resultados de la búsqueda.\n\nAquí tienes algunas opciones que te pueden ayudar:\n\n- 🔍 **Ampliar la búsqueda** a otras poblaciones cercanas de la provincia de Valencia (p. ej., Burjassot, Mislata, Paterna...). ¿Te interesa?\n- 📋 **Verificar tu modalidad de póliza**: los resultados varían según el cuadro (Cuadro completo, Medifiatc Start, Medifiatc ADVANCE...). Si me indicas cuál tienes, puedo afinar la búsqueda.\n- 📞 **Contactar con FIATC directamente** para que te orienten sobre las opciones disponibles en tu zona.\n\n¿Quieres que pruebe con alguna de estas opciones?",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 12.0
+  },
+  {
+    "id": 4,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "Quiero ver a un traumatólogo en Sevilla",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lamentablemente, la búsqueda no ha devuelto resultados de traumatólogos en Sevilla en este momento para el **Cuadro completo** (que es la modalidad que he asumido por defecto).\n\nTe sugiero lo siguiente:\n\n1. **Verifica tu modalidad de póliza** (Medifiatc Start, ADVANCE, CORP…), ya que puede haber diferencias en la cobertura por zona.\n2. **Ampliar la búsqueda** a otras poblaciones cercanas de la provincia de Sevilla.\n3. **Contactar directamente con FIATC** para que te orienten sobre los especialistas disponibles en tu área.\n\nSi quieres, puedo probar con alguna de estas opciones o buscar en una población cercana. ¿Cómo prefieres continuar? 😊",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 12.1
+  },
+  {
+    "id": 5,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "¿Dónde hay un neurólogo en Zaragoza?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, la búsqueda no ha devuelto ningún neurólogo disponible en Zaragoza dentro del **Cuadro completo** en este momento.\n\nTe sugiero las siguientes opciones:\n\n1. **Verificar tu modalidad de póliza** — Es posible que tu cobertura sea Medifiatc Start, ADVANCE u otra. Puedo repetir la búsqueda con la modalidad correcta.\n2. **Ampliar la búsqueda a otra localidad cercana** — Puedo buscar en otras poblaciones de la provincia de Zaragoza.\n3. **Contactar directamente con FIATC** — Para confirmar la disponibilidad actualizada del cuadro médico en tu zona.\n\n¿Quieres que pruebe alguna de estas opciones? 😊",
+    "herramientas_usadas": [
+      "listar_especialidades",
+      "geolocalizar",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 11.8
+  },
+  {
+    "id": 6,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "Necesito un ginecólogo en Baleares",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "La especialidad correcta es **Ginecología y Obstetricia**. Sin embargo, no he podido normalizar \"Baleares\" automáticamente. ¿Podrías indicarme una **población concreta o código postal** dentro de Baleares? Por ejemplo:\n\n- **Palma de Mallorca**\n- **Ibiza**\n- **Mahón (Menorca)**\n- O tu código postal\n\nAsí podré hacer una búsqueda más precisa. 😊",
+    "herramientas_usadas": [
+      "listar_especialidades",
+      "geolocalizar"
+    ],
+    "tiempo_s": 7.5
+  },
+  {
+    "id": 7,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "¿Hay oftalmólogos en Málaga?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, la búsqueda no ha devuelto resultados de oftalmólogos en Málaga capital dentro del **Cuadro completo** en este momento.\n\nAlgunas sugerencias para ampliar la búsqueda:\n\n- 🔍 **Ampliar la zona**: puedo buscar en otras poblaciones de la provincia de Málaga (Marbella, Torremolinos, Fuengirola…).\n- 📋 **Cambiar el cuadro médico**: si tienes una modalidad específica (Medifiatc Start, Medifiatc ADVANCE, etc.), prueba con esa.\n- 📞 **Contactar con FIATC directamente**: pueden orientarte sobre la cobertura disponible en tu zona.\n\n> ⚠️ *Recuerda que te he buscado en el \"Cuadro completo\". Si tu póliza es de otra modalidad, conviene confirmarlo.*\n\n¿Quieres que amplíe la búsqueda a otros municipios de Málaga o que pruebe con otra modalidad?",
+    "herramientas_usadas": [
+      "listar_especialidades",
+      "geolocalizar",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 11.8
+  },
+  {
+    "id": 8,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "Busco otorrinolaringólogo en Vizcaya",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Perfecto, la especialidad correcta es **Otorrinolaringología**. Respecto a la ubicación, el sistema no ha podido normalizar \"Vizcaya\" automáticamente. ¿Podrías indicarme una población concreta o un código postal dentro de Vizcaya? Por ejemplo: **Bilbao**, **Barakaldo**, **Getxo**, etc.\n\nAsí podré buscarte los especialistas más cercanos a ti. 😊",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades"
+    ],
+    "tiempo_s": 7.1
+  },
+  {
+    "id": 9,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "¿Dónde hay un psiquiatra en Barcelona?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, no he encontrado resultados de psiquiatras disponibles en Barcelona dentro del **Cuadro completo** de FIATC en este momento.\n\nTe sugiero algunas alternativas:\n\n- 🔍 **Ampliar la búsqueda** a otras poblaciones cercanas de la provincia de Barcelona.\n- 📋 **Verificar tu modalidad de póliza** (Medifiatc Start, ADVANCE, CORP…), ya que los profesionales disponibles pueden variar según el cuadro contratado.\n- 📞 **Contactar directamente con FIATC** para que te orienten sobre los especialistas disponibles para tu póliza concreta.\n\n> ⚠️ Recuerda que asumo que tienes el **Cuadro completo**, pero te recomiendo confirmar la modalidad de tu póliza para obtener resultados más precisos.\n\n¿Quieres que pruebe con otra población cercana o con alguna otra especialidad?",
+    "herramientas_usadas": [
+      "listar_especialidades",
+      "geolocalizar",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 12.6
+  },
+  {
+    "id": 10,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "Busco reumatólogo en Sevilla",
+    "ok": false,
+    "motivo_fallo": "Timeout",
+    "respuesta": "",
+    "herramientas_usadas": [],
+    "tiempo_s": 62.2
+  },
+  {
+    "id": 11,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "¿Hay endocrinólogos en Valencia?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento **no hay endocrinólogos disponibles en el cuadro médico de FIATC para Valencia** (Cuadro completo).\n\nTe sugiero algunas alternativas:\n\n- 🔍 **Ampliar la búsqueda** a otras poblaciones cercanas de la provincia (por ejemplo, Paterna, Burjassot, Torrent…). ¿Te interesa que lo pruebe?\n- 📋 **Verificar tu modalidad de póliza**: si tienes una cobertura específica (Medifiatc Start, ADVANCE, etc.), podría haber resultados distintos. ¿Sabes qué tipo de póliza tienes?\n- 📞 **Contactar directamente con FIATC** para que te orienten sobre cómo acceder a esta especialidad.\n\n¿Quieres que pruebe con alguna de estas opciones?",
+    "herramientas_usadas": [
+      "listar_especialidades",
+      "geolocalizar",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 12.2
+  },
+  {
+    "id": 12,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "Necesito un nefrólogo en Madrid",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, actualmente **no hay nefrólogos disponibles** en el cuadro médico de FIATC para Madrid.\n\nEsto puede deberse a que la Nefrología no figura como especialidad independiente en el cuadro. Te sugiero algunas alternativas:\n\n- 📞 **Contacta directamente con FIATC** para que te orienten sobre cómo acceder a un nefrólogo (puede requerir derivación desde Medicina General).\n- 🏥 Puedes consultar primero con un **médico de Medicina General** del cuadro, quien valorará tu caso y podrá orientarte.\n- 🔍 Si tu consulta está relacionada con problemas urinarios, también podría ser relevante la especialidad de **Urología**, que sí está disponible en Madrid.\n\n---\n\n> ⚠️ **Recuerda:** Te estoy mostrando resultados del **Cuadro completo**. Si tienes una modalidad diferente (Medifiatc Start, ADVANCE, etc.), los resultados pueden variar. Confirma tu póliza si es necesario.\n\n¿Te puedo ayudar con algo más?",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 13.8
+  },
+  {
+    "id": 13,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "Busco oncólogo en Barcelona",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Te comento lo que he encontrado:\n\n⚠️ **Oncología no figura como especialidad disponible** de forma independiente en el cuadro médico de FIATC. Esto puede significar que:\n\n- La atención oncológica se canaliza a través de **hospitales y centros concertados** incluidos en la red.\n- La derivación habitualmente la gestiona tu **médico de cabecera o de Medicina General**, quien te puede referir al especialista adecuado.\n\n**Mi recomendación:**\n\n1. 📞 **Contacta directamente con FIATC** para que te confirmen cómo está cubierta la oncología en tu póliza y qué centros están disponibles.\n2. Puedes empezar por tu médico de Medicina General en Barcelona, que puede orientarte y gestionar la derivación.\n\n---\n\n> ℹ️ He asumido el cuadro **\"Cuadro completo\"**. Si tienes una modalidad distinta (Medifiatc Start, ADVANCE…), conviene confirmarlo, ya que puede afectar a los centros disponibles.\n\n¿Quieres que te busque hospitales o centros médicos en Barcelona donde pueda haber cobertura oncológica, o necesitas algo más? 😊",
+    "herramientas_usadas": [
+      "listar_especialidades",
+      "geolocalizar",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 14.5
+  },
+  {
+    "id": 14,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "¿Hay rehabilitación en Málaga?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Hmm, no he encontrado resultados para Traumatología en Málaga en este momento. Esto puede deberse a que la especialidad de **Rehabilitación** como tal no está disponible como categoría independiente en el listado actual del cuadro médico, o a que no hay centros registrados en este momento para esa zona.\n\nTe sugiero lo siguiente:\n\n1. 📞 **Llama a FIATC directamente** para que te indiquen los centros de rehabilitación disponibles en Málaga con tu modalidad de póliza.\n2. 🔍 **¿Quieres que busque en otra especialidad?** Por ejemplo, si tienes un problema concreto (espalda, rodilla, hombro...), cuéntame el síntoma y te oriento hacia el especialista adecuado.\n3. 📍 **¿Quieres ampliar la búsqueda** a otras poblaciones cercanas en la provincia de Málaga?\n\n> ⚠️ Recuerda que te asumo en el **Cuadro completo**. Si tienes otra modalidad de póliza (Medifiatc Start, ADVANCE, etc.), los resultados pueden variar.\n\n¿Cómo te puedo ayudar?",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 14.4
+  },
+  {
+    "id": 15,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "Busco neumólogo en Zaragoza",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento **no se han encontrado neumólogos disponibles en Zaragoza** dentro del cuadro médico (Cuadro completo).\n\nTe sugiero algunas alternativas:\n\n1. **Ampliar la búsqueda** a otras poblaciones cercanas de la provincia de Zaragoza.\n2. **Verificar tu modalidad de póliza** — si tienes una modalidad específica como *Medifiatc Start* o *Medifiatc ADVANCE*, podría haber resultados diferentes.\n3. **Contactar directamente con FIATC** para que te orienten sobre los especialistas disponibles en tu zona.\n\n¿Quieres que amplíe la búsqueda a otras localidades cercanas o pruebo con alguna otra modalidad de cuadro?",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 11.5
+  },
+  {
+    "id": 16,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "Necesito un urólogo en Baleares",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "La especialidad de **Urología** está disponible en el cuadro médico. Sin embargo, no he podido determinar exactamente la ubicación en Baleares. ¿Podrías indicarme la **población** o el **código postal** donde buscas? Por ejemplo, Palma de Mallorca, Ibiza, Menorca...\n\nDe este modo podré ofrecerte los resultados más cercanos a ti. 😊",
+    "herramientas_usadas": [
+      "listar_especialidades",
+      "geolocalizar"
+    ],
+    "tiempo_s": 7.2
+  },
+  {
+    "id": 17,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "¿Hay neurocirujanos en Madrid?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Revisando la lista de especialidades del cuadro médico de FIATC, veo que **Neurocirugía** no figura como especialidad disponible. La especialidad más cercana que sí está disponible es **Neurología**.\n\n¿Puede ser que estés buscando un **neurólogo** (especialista en enfermedades del sistema nervioso)? La neurocirugía es una subespecialidad quirúrgica que habitualmente se gestiona a través de derivaciones hospitalarias.\n\nSi me confirmas que te interesa **Neurología** en Madrid, te busco los profesionales disponibles de inmediato. 😊\n\n> ⚠️ **Recuerda:** No olvides verificar tu modalidad de póliza (Cuadro completo, Medifiatc Start, etc.) para asegurarte de que los resultados se ajustan a tu cobertura.",
+    "herramientas_usadas": [
+      "listar_especialidades",
+      "geolocalizar"
+    ],
+    "tiempo_s": 9.5
+  },
+  {
+    "id": 18,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "Busco alergólogo en Vizcaya",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, actualmente **no hay resultados de alergólogos en Vizcaya** dentro del cuadro médico completo de FIATC.\n\nAquí tienes algunas opciones:\n\n1. **Ampliar la búsqueda** a provincias cercanas como **Guipúzcoa** o **Álava**. ¿Te interesa?\n2. **Revisar tu modalidad de póliza** — si tienes Medifiatc Start, ADVANCE u otra modalidad, el cuadro puede variar.\n3. **Contactar directamente con FIATC** para que puedan orientarte sobre la cobertura en tu zona.\n\n> ⚠️ *Ten en cuenta que estoy usando \"Cuadro completo\" por defecto. Si quieres, confirma la modalidad de tu póliza para ajustar la búsqueda.*\n\n¿Cómo prefieres que sigamos?",
+    "herramientas_usadas": [
+      "listar_especialidades",
+      "geolocalizar",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 12.9
+  },
+  {
+    "id": 19,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "¿Dónde hay fisioterapia en Barcelona?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "No se han encontrado resultados para \"Fisioterapia\" en Barcelona dentro del cuadro médico de FIATC.\n\nAquí te dejo algunas opciones para avanzar:\n\n1. **¿Tienes algún problema concreto?** Si me describes qué te ocurre (dolor de espalda, recuperación tras una lesión, etc.), puedo orientarte hacia la especialidad correcta del cuadro (por ejemplo, **Traumatología** o **Reumatología**).\n2. **Consulta con FIATC directamente**: Es posible que la fisioterapia esté incluida en tu póliza bajo otra denominación o con centros específicos. Te recomiendo contactar con FIATC para confirmarlo.\n3. **¿Quieres que busque Traumatología en Barcelona?** Puedo mostrarte especialistas disponibles en esa área.\n\n> ⚠️ *Ten en cuenta que estoy usando el \"Cuadro completo\" por defecto. Si tienes una modalidad específica (Medifiatc Start, ADVANCE…), conviene confirmarlo para obtener resultados más precisos.*\n\n¿Cómo te puedo ayudar?",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 14.5
+  },
+  {
+    "id": 20,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "Necesito un hematólogo en Sevilla",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Veo que **Hematología** no figura como especialidad disponible en el cuadro médico de FIATC. Las especialidades disponibles son:\n\n> Alergología, Aparato Digestivo, Cardiología, Dermatología, Endocrinología, Ginecología y Obstetricia, Medicina General, Neumología, Neurología, Oftalmología, Otorrinolaringología, Pediatría, Psicología, Psiquiatría, Reumatología, Traumatología y Urología.\n\nTe sugiero algunas alternativas:\n\n- 🩺 **Consulta con tu Médico General** en Sevilla, quien puede orientarte y derivarte al especialista adecuado.\n- 📞 Si tu consulta es urgente, contacta con el servicio de **Urgencias Médicas de FIATC**: **911 227 468 / 932 825 284**.\n\n¿Quieres que te busque un **médico de cabecera (Medicina General)** en Sevilla, o necesitas ayuda con alguna otra especialidad? 😊",
+    "herramientas_usadas": [
+      "listar_especialidades",
+      "geolocalizar"
+    ],
+    "tiempo_s": 9.6
+  },
+  {
+    "id": 21,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "¿Hay geriatras en Valencia?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "He comprobado la lista de especialidades disponibles en el cuadro médico de FIATC y, lamentablemente, **Geriatría no figura como especialidad disponible** en este momento.\n\nLas especialidades que sí están disponibles son:\n\nAlergología, Aparato Digestivo, Cardiología, Dermatología, Endocrinología, Ginecología y Obstetricia, Medicina General, Neumología, Neurología, Oftalmología, Otorrinolaringología, Pediatría, Psicología, Psiquiatría, Reumatología, Traumatología y Urología.\n\nSi estás buscando atención para una persona mayor, te sugiero algunas alternativas:\n- **Medicina General**, que puede orientar y derivar al especialista adecuado.\n- Especialidades como **Neurología**, **Cardiología** o **Reumatología**, según la problemática concreta.\n\n¿Te puedo ayudar a buscar alguna de estas especialidades en Valencia? 😊\n\n> 📌 *Ten en cuenta que estoy mostrando resultados del **Cuadro completo**. Si tienes una modalidad diferente (Medifiatc Start, ADVANCE...), conviene confirmarlo para afinar la búsqueda.*",
+    "herramientas_usadas": [
+      "listar_especialidades",
+      "geolocalizar"
+    ],
+    "tiempo_s": 10.5
+  },
+  {
+    "id": 22,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "Busco un podólogo en Madrid",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Aquí te muestro el resultado encontrado para **Traumatología** en Madrid:\n\n---\n\n🦶 **Dr. Miguel Ángel López Ruiz** — *Traumatología*\n- 🏥 Centro Médico Castellana — Paseo de la Castellana 200, Madrid (28046)\n- 📞 915 000 003\n- 💻 **Reserva online disponible**\n\n---\n\n> ⚠️ **Nota importante:** La especialidad de **Podología** no figura de forma independiente en el cuadro médico. Te recomiendo:\n> 1. **Contactar con FIATC** para confirmar si existe cobertura de podología bajo otra categoría.\n> 2. Considerar si tu consulta es de tipo traumatológico (huesos, articulaciones del pie), en cuyo caso este especialista puede ayudarte.\n\nAdemás, te recuerdo que estoy usando el **Cuadro completo** por defecto. Si tienes una modalidad diferente (Medifiatc Start, CORP, ADVANCE), dímelo y ajusto la búsqueda. ¿Necesitas más información?",
+    "herramientas_usadas": [
+      "listar_especialidades",
+      "geolocalizar",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 14.1
+  },
+  {
+    "id": 23,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "¿Hay logopedas en Málaga?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "La logopedia no aparece como especialidad independiente en el cuadro médico de FIATC. Las especialidades disponibles son: Alergología, Aparato Digestivo, Cardiología, Dermatología, Endocrinología, Ginecología y Obstetricia, Medicina General, Neumología, Neurología, Oftalmología, Otorrinolaringología, Pediatría, Psicología, Psiquiatría, Reumatología, Traumatología y Urología.\n\nAlgunos apuntes que pueden ayudarte:\n\n- **Otorrinolaringología** podría ser una especialidad relacionada según el motivo de consulta (problemas de voz, deglución, audición).\n- **Neurología** o **Pediatría** también pueden derivar a logopedia en ciertos casos.\n\nSi me cuentas el motivo por el que buscas un logopeda, puedo orientarte hacia la especialidad más adecuada dentro del cuadro médico. 😊\n\n> ⚠️ Ten en cuenta que estoy consultando el **Cuadro completo**. Si tienes una modalidad de póliza específica (Medifiatc Start, ADVANCE, etc.), conviene que lo confirmes para obtener resultados precisos.",
+    "herramientas_usadas": [
+      "listar_especialidades",
+      "geolocalizar"
+    ],
+    "tiempo_s": 10.5
+  },
+  {
+    "id": 24,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "Necesito urgencias 24 horas en Madrid",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Aquí tienes los centros de **Urgencias Médicas** disponibles en Madrid. Te muestro los 3 primeros:\n\n---\n\n🏥 **1. Centro Médico Castellana**\n- 📍 Paseo de la Castellana 200, Madrid (28046)\n- 📞 **915 000 003**\n- 🖥️ Reserva online disponible\n- Cuadros: Cuadro completo / Medifiatc ADVANCE\n\n---\n\n🏥 **2. Clínica Salamanca**\n- 📍 Calle Velázquez 80, Madrid (28006)\n- 📞 **915 000 004**\n- 🖥️ Reserva online disponible (en algunos especialistas)\n- Cuadros: Cuadro completo / Medifiatc ADVANCE / Medifiatc Start\n\n---\n\n> ⚠️ **¿Es una emergencia urgente?** Si necesitas atención inmediata, contacta con el servicio de **Urgencias Médicas de FIATC**:\n> 📞 **911 227 468 / 932 825 284** (disponibles 24 horas)\n\n---\n\n💡 *Ten en cuenta que estoy mostrando el **Cuadro completo** por defecto. Si quieres, indícame tu modalidad de póliza para afinar los resultados.*\n\n¿Quieres más información sobre alguno de estos centros o necesitas algo más?",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 11.7
+  },
+  {
+    "id": 25,
+    "categoria": "A-especialidad_provincia",
+    "pregunta": "¿Hay centros con urgencias en Barcelona?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Aquí tienes los centros con servicio de **Urgencias Médicas** en Barcelona. Te muestro los 3 primeros:\n\n| # | Profesional | Especialidad | Centro | Dirección | Teléfono | Reserva online |\n|---|---|---|---|---|---|---|\n| 1 | Dr. Joan Martí Puig | Cardiología | Centro Médico Diagonal | Av. Diagonal 123, Barcelona | 932 000 001 | ✅ Sí |\n| 2 | Dr. Ramón Casals Vidal | Traumatología | Centro Médico Diagonal | Av. Diagonal 123, Barcelona | 932 000 001 | ❌ No |\n| 3 | Dr. Pere Vidal Camps | Medicina General | Centro Médico Diagonal | Av. Diagonal 123, Barcelona | 932 000 001 | ✅ Sí |\n\n> ℹ️ Estos resultados corresponden al **Cuadro completo**. Si tienes una modalidad de póliza diferente (Medifiatc Start, ADVANCE…), te recomiendo confirmarlo para asegurarte de que están cubiertos.\n\n---\n\n⚠️ **¿Es una urgencia ahora mismo?** Si necesitas atención urgente inmediata, puedes llamar al servicio de Urgencias Médicas de FIATC:\n- 📞 **911 227 468** / **932 825 284**\n\n¿Quieres ver más resultados o necesitas información detallada de algún centro en concreto?",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 11.9
+  },
+  {
+    "id": 26,
+    "categoria": "B-sintoma",
+    "pregunta": "Me duele mucho la rodilla, ¿qué especialista necesito en Barcelona?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Para el dolor de rodilla te recomiendo acudir a un **traumatólogo**, que es el especialista más indicado. Aquí tienes las opciones disponibles en Barcelona:\n\n---\n\n### 🦴 Traumatología\n**Dr. Ramón Casals Vidal**\n- 🏥 Centro Médico Diagonal — Av. Diagonal 123, Barcelona (08036)\n- 📞 932 000 001\n- 💻 Reserva online: No disponible\n- Cuadros: Cuadro completo / Medifiatc ADVANCE\n\n---\n\n### 🩺 Medicina General (como primera consulta)\nSi prefieres pasar primero por tu médico de cabecera para que te derive:\n\n**Dr. Pere Vidal Camps**\n- 🏥 Centro Médico Diagonal — Av. Diagonal 123, Barcelona (08036)\n- 📞 932 000 001\n- 💻 Reserva online: ✅ Sí\n- Cuadros: Cuadro completo / Medifiatc Start / Medifiatc ADVANCE\n\n---\n\n> ⚠️ **Nota:** Los resultados mostrados corresponden al **Cuadro completo**. Te recomiendo confirmar la modalidad de tu póliza para asegurarte de que estos profesionales están cubiertos.\n\n> 🚨 Si el dolor es muy intenso o repentino, no dudes en contactar con **Urgencias Médicas FIATC**: **911 227 468 / 932 825 284**.\n\n¿Quieres que busque más especialistas o necesitas información adicional de alguno de estos centros?",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 15.5
+  },
+  {
+    "id": 27,
+    "categoria": "B-sintoma",
+    "pregunta": "Tengo problemas de visión, ¿adónde debo ir en Madrid?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "He encontrado un especialista en Oftalmología en Madrid. Aquí tienes la información:\n\n---\n\n👁️ **Dr. Andrés Torres Vila** — Oftalmología\n- 🏥 **Centro:** Clínica Salamanca\n- 📍 **Dirección:** Calle Velázquez 80, Madrid (28006)\n- 📞 **Teléfono:** 915 000 004\n- 🖥️ **Reserva online:** ✅ Disponible\n\n---\n\n> ⚠️ He realizado la búsqueda para el **Cuadro completo**. Te recomiendo confirmar la modalidad de tu póliza para asegurarte de que este profesional está cubierto.\n\nSi necesitas más opciones o tienes alguna otra consulta, ¡dímelo! 😊",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 13.6
+  },
+  {
+    "id": 28,
+    "categoria": "B-sintoma",
+    "pregunta": "Mi hijo tiene fiebre alta y lleva días malo, estoy en Sevilla",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Entiendo que estás preocupado/a por tu hijo. Ante **fiebre alta que persiste varios días**, te recomiendo que contactes de inmediato con el servicio de **Urgencias Médicas de FIATC**:\n\n📞 **911 227 468 / 932 825 284**\n\nNo esperes a pedir cita con un especialista en una situación así.\n\n---\n\nDicho esto, si quieres también puedo buscarte **pediatras en Sevilla** del cuadro médico para un seguimiento posterior una vez que el pequeño esté mejor. ¿Te gustaría que lo hiciera?",
+    "herramientas_usadas": [],
+    "tiempo_s": 6.3
+  },
+  {
+    "id": 29,
+    "categoria": "B-sintoma",
+    "pregunta": "Me duele el pecho con frecuencia, ¿a qué especialista voy en Madrid?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Aquí tienes el resultado para tu consulta. Dos apuntes importantes antes:\n\n---\n\n⚠️ **Aviso de salud:** El dolor de pecho frecuente puede tener múltiples causas. Si el dolor es **intenso, repentino o se acompaña de dificultad para respirar, sudoración o mareo**, no esperes y contacta con **Urgencias Médicas: 911 227 468 / 932 825 284**.\n\n---\n\nPara un dolor de pecho recurrente, lo más recomendable es acudir a **Cardiología**. Esto es lo que he encontrado en Madrid:\n\n| | |\n|---|---|\n| 👨‍⚕️ **Dr. Carlos Méndez Ortega** | **Especialidad:** Cardiología |\n| 🏥 Centro Médico Castellana | **Dirección:** Paseo de la Castellana 200, Madrid (28046) |\n| 📞 915 000 003 | **Reserva online:** No disponible |\n| ✅ Disponible en: Cuadro completo, Medifiatc Start, Medifiatc ADVANCE | |\n\n---\n\n📋 **Nota:** He asumido el **Cuadro completo**, pero te recomiendo confirmar la modalidad exacta de tu póliza para asegurarte de que este profesional está cubierto.\n\n¿Quieres que busque más especialistas o en otra zona de Madrid?",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 16.8
+  },
+  {
+    "id": 30,
+    "categoria": "B-sintoma",
+    "pregunta": "Tengo sarpullido en la piel desde hace semanas, busco médico en Valencia",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Aquí tienes los resultados para tu consulta de **sarpullido en la piel** en **Valencia**:\n\n---\n\n### 🩺 Medicina General\n> *(Punto de entrada recomendado, ya que no se encontraron dermatólogos disponibles en el cuadro actualmente)*\n\n**Dra. Marta Giménez Tort**\n- 🏥 Centro Médico Valencia Centro\n- 📍 Calle Colón 30, Valencia (46004)\n- 📞 963 000 005\n- 🖥️ **Reserva online disponible**\n\n---\n\n### Algunas consideraciones:\n\n- Lamentablemente, **no hay dermatólogos** disponibles en este momento en el cuadro para Valencia. El médico de Medicina General puede valorarte y, si lo considera necesario, derivarte al especialista.\n- Te consulto: **¿cuál es tu modalidad de póliza?** (Cuadro completo, Medifiatc Start, Medifiatc ADVANCE…). He buscado en el **Cuadro completo** por defecto, pero los resultados pueden variar según tu póliza.\n- Si en algún momento el sarpullido va acompañado de dificultad para respirar, fiebre alta u otros síntomas graves, contacta con **Urgencias Médicas: 911 227 468 / 932 825 284**.\n\n¿Quieres que amplíe la búsqueda a otras poblaciones cercanas o necesitas algo más? 😊",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 16.5
+  },
+  {
+    "id": 31,
+    "categoria": "B-sintoma",
+    "pregunta": "Me duele la cabeza constantemente y tengo mareos, estoy en Zaragoza",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento no he encontrado resultados en el cuadro médico para Neurología ni Medicina General en Zaragoza. Esto puede deberse a que:\n\n- La búsqueda está aplicando el **Cuadro completo** por defecto, y es posible que tu póliza sea de otra modalidad (**Medifiatc Start**, **Medifiatc ADVANCE**, etc.).\n- Puede haber una limitación temporal en los datos disponibles.\n\nTe recomiendo:\n\n1. **Confirmar la modalidad de tu póliza** para ajustar la búsqueda correctamente.\n2. Contactar directamente con FIATC para que te orienten sobre los centros disponibles en tu zona.\n\n---\n\n⚠️ **Importante:** Si el dolor de cabeza es muy intenso, repentino o va acompañado de otros síntomas como visión borrosa, dificultad para hablar o entumecimiento, **no esperes y contacta con Urgencias Médicas:**\n- 📞 **911 227 468 / 932 825 284**\n\n¿Quieres que repita la búsqueda con otra modalidad de cuadro o con algún otro criterio?",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 14.1
+  },
+  {
+    "id": 32,
+    "categoria": "B-sintoma",
+    "pregunta": "Tengo pitidos en los oídos y problemas de audición en Vizcaya",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lamentablemente, **no hemos encontrado especialistas en Otorrinolaringología en Vizcaya** dentro del cuadro médico en este momento.\n\nAquí tienes algunas opciones para continuar:\n\n1. 🔍 **Ampliar la búsqueda** a una provincia cercana, como **Guipúzcoa** o **Álava**. ¿Te gustaría que buscase allí?\n2. 🏥 **Consultar primero con Medicina General**, que puede orientarte y derivarte al especialista adecuado. Puedo buscar médicos de cabecera en Vizcaya.\n3. 📞 **Contactar directamente con FIATC** para que te asesoren sobre las coberturas disponibles en tu zona.\n\nPor otro lado, te recuerdo que conviene confirmar la **modalidad de tu póliza** (Cuadro completo, Medifiatc Start, etc.), ya que los profesionales disponibles pueden variar según tu cobertura.\n\n¿Cómo prefieres proceder? 😊",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 15.3
+  },
+  {
+    "id": 33,
+    "categoria": "B-sintoma",
+    "pregunta": "Creo que tengo alergia al polen, ¿a quién voy en Barcelona?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento **no aparecen resultados de Alergología** en la provincia de Barcelona dentro del Cuadro completo. Esto podría deberse a varias razones:\n\n1. 📋 **Modalidad de póliza**: Es posible que tu cobertura sea diferente (p. ej. *Medifiatc Start*, *Medifiatc ADVANCE*, etc.). ¿Podrías confirmar qué tipo de póliza tienes?\n2. 🔄 **Actualización del cuadro médico**: La guía podría estar en proceso de actualización.\n\n### Mientras tanto, te recomiendo:\n- 📞 Contactar directamente con **FIATC** para que te orienten sobre los alergólogos disponibles en tu zona.\n- Si los síntomas son intensos (dificultad para respirar, reacción alérgica severa), llama a **Urgencias Médicas: 911 227 468 / 932 825 284**.\n\n¿Quieres que pruebe con otra modalidad de cuadro o con alguna población cercana?",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 16.5
+  },
+  {
+    "id": 34,
+    "categoria": "B-sintoma",
+    "pregunta": "Me cuesta respirar cuando hago ejercicio, estoy en Baleares",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Gracias por la información. Te comento dos cosas:\n\n1. **Sobre tu síntoma:** La dificultad para respirar al hacer ejercicio puede estar relacionada con varias especialidades (neumología, cardiología…). Como punto de entrada, te recomendaría empezar por **Medicina General**, que podrá orientarte y derivarte al especialista adecuado.\n\n2. **Sobre tu ubicación:** ¿Podrías concretar un poco más? Baleares engloba varias islas y localidades. Por ejemplo:\n   - 🏝️ **Palma de Mallorca**\n   - 🏝️ **Ibiza**\n   - 🏝️ **Mahón (Menorca)**\n   - O bien un **código postal** concreto\n\nCon esa información buscaré los profesionales más cercanos a ti. 😊\n\n> ⚠️ **Importante:** Si en algún momento notas que la dificultad para respirar es intensa o repentina, contacta con **Urgencias Médicas FIATC: 911 227 468 / 932 825 284**.",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar"
+    ],
+    "tiempo_s": 11.8
+  },
+  {
+    "id": 35,
+    "categoria": "B-sintoma",
+    "pregunta": "Tengo problemas de tiroides, ¿dónde me pueden atender en Madrid?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento **no encuentro resultados de especialistas en Endocrinología** en Madrid dentro del cuadro médico. Esto podría deberse a varias razones:\n\n- La especialidad puede estar cubierta bajo otra denominación en tu modalidad de póliza.\n- Es posible que haya una incidencia temporal en la disponibilidad de datos.\n\nTe recomiendo que:\n\n1. 📞 **Llames directamente a FIATC** para que puedan orientarte sobre los endocrinólogos disponibles en tu zona y confirmar la cobertura según tu póliza.\n2. 🩺 Comiences por **Medicina General**, cuyo cuadro puede ser más amplio, y que tu médico de cabecera te derive al especialista adecuado.\n\n> ⚠️ Recuerda que estoy asumiendo que tu póliza es **Cuadro completo**. Si tienes otra modalidad (Medifiatc Start, ADVANCE, etc.), los resultados pueden variar. ¡Confírmalo con FIATC para asegurarte!\n\n¿Quieres que busque médicos de **Medicina General** en Madrid como punto de partida?",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 19.2
+  },
+  {
+    "id": 36,
+    "categoria": "B-sintoma",
+    "pregunta": "Llevo meses con insomnio y mucha ansiedad en Barcelona",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento no aparecen resultados para Psiquiatría ni Psicología con el filtro de población \"Barcelona\" en el cuadro médico. Puede deberse a un problema puntual en la búsqueda. Aquí te dejo algunas opciones:\n\n1. **Ampliar la búsqueda a toda la provincia de Barcelona** — ¿quieres que lo intente sin filtrar por ciudad?\n2. **Confirmar tu modalidad de póliza** — estoy buscando en el **Cuadro completo**, pero si tienes *Medifiatc Start*, *Advance* u otro producto, los resultados pueden variar.\n3. **Contactar directamente con FIATC** para que te orienten sobre los especialistas disponibles en tu zona.\n\n---\n\n> ⚠️ **Nota importante:** Si la ansiedad o el insomnio te generan un malestar muy intenso o te sientes desbordado/a, no dudes en llamar al servicio de **Urgencias Médicas de FIATC**:\n> 📞 **911 227 468 / 932 825 284**\n\n¿Cómo quieres que procedamos?",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 19.2
+  },
+  {
+    "id": 37,
+    "categoria": "B-sintoma",
+    "pregunta": "Tengo dolor fuerte en las articulaciones de las manos, estoy en Sevilla",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento no encuentro resultados disponibles en el cuadro médico para Sevilla con esas especialidades. Puede deberse a que la búsqueda no devuelve datos en este momento.\n\nAquí tienes algunas opciones para seguir adelante:\n\n1. 🔍 **Ampliar la búsqueda**: Puedo intentar buscar en otros municipios cercanos de la provincia de Sevilla o con otro filtro.\n2. 📋 **Consultar directamente con FIATC**: Puedes contactar con el servicio de atención al asegurado para que te orienten con tu póliza concreta.\n3. 🚨 **Si el dolor es muy intenso o incapacitante**, te recomiendo contactar con el servicio de **Urgencias Médicas de FIATC**:\n   - 📞 **911 227 468 / 932 825 284**\n\n---\n\n> ⚠️ **Recuerda confirmar tu modalidad de póliza** (Cuadro completo, Medifiatc Start, Advance…), ya que los profesionales disponibles pueden variar según tu cobertura.\n\n¿Quieres que pruebe con alguna otra opción de búsqueda?",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 14.2
+  },
+  {
+    "id": 38,
+    "categoria": "B-sintoma",
+    "pregunta": "Mi hijo tiene retraso en el habla, busco especialista en Barcelona",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento no encuentro resultados disponibles en el cuadro médico para Barcelona con estas especialidades. Esto puede deberse a que:\n\n- 📋 **La modalidad de póliza** puede limitar los profesionales disponibles. Estoy consultando el **Cuadro completo** por defecto, pero si tu póliza es *Medifiatc Start*, *Medifiatc ADVANCE* u otra, los resultados pueden variar.\n- 🔍 Es posible que la búsqueda por zona o especialidad necesite ajuste.\n\nTe sugiero lo siguiente:\n\n1. **Confirma tu modalidad de póliza** para que pueda buscar con el cuadro correcto.\n2. También puedo ampliar la búsqueda a otros municipios del área metropolitana de Barcelona (Hospitalet, Badalona, Sabadell...).\n3. Si necesitas orientación urgente, puedes llamar al servicio de atención de **FIATC: 911 227 468 / 932 825 284**.\n\n¿Cómo te puedo ayudar a continuar? 😊",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 18.4
+  },
+  {
+    "id": 39,
+    "categoria": "B-sintoma",
+    "pregunta": "Tengo varices muy pronunciadas, ¿qué especialista necesito en Valencia?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Aquí tienes el resultado encontrado en Valencia:\n\n---\n\n👩‍⚕️ **Dra. Marta Giménez Tort** — *Medicina General*\n🏥 Centro Médico Valencia Centro\n📍 Calle Colón 30, Valencia (46004)\n📞 963 000 005\n🖥️ **Reserva online disponible**\n\n---\n\n**Mis recomendaciones:**\n\n1. **Consulta primero con Medicina General** — La Dra. Giménez podrá valorarte y derivarte al especialista vascular o angiólogo más adecuado para el tratamiento de tus varices.\n2. Si tienes afectación en la piel (eccemas, úlceras, cambios de color), también puedes consultar con **Dermatología**.\n\n> ⚠️ Recuerda que estoy usando el **Cuadro completo** por defecto. Te recomiendo confirmar la modalidad de tu póliza para asegurarte de que la cobertura es correcta.\n\n¿Quieres que busque también especialistas en Dermatología en Valencia, o necesitas alguna otra información? 😊",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 17.8
+  },
+  {
+    "id": 40,
+    "categoria": "B-sintoma",
+    "pregunta": "Me han mandado hacer una resonancia magnética en Madrid",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, no he encontrado resultados específicos de **resonancia magnética** como prueba diagnóstica en Madrid dentro del cuadro médico de FIATC. Los resultados de pruebas diagnósticas que aparecen no incluyen ese servicio concreto.\n\nTe recomiendo que:\n\n1. 📞 **Contactes directamente con FIATC** para que te orienten sobre qué centros están autorizados para realizarte la resonancia magnética con tu póliza.\n2. 🔍 Puedes también **preguntar al especialista que te la ha prescrito**, ya que a menudo tienen acuerdos directos con centros del cuadro.\n\n> ⚠️ Ten en cuenta que estoy usando el **Cuadro completo** por defecto. Si tienes una modalidad diferente (Medifiatc Start, ADVANCE, etc.), conviene confirmarlo ya que los centros disponibles pueden variar.\n\n¿Puedo ayudarte en algo más?",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 14.1
+  },
+  {
+    "id": 41,
+    "categoria": "B-sintoma",
+    "pregunta": "Tengo diabetes y necesito control nutricional en Málaga",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lamentablemente, en este momento **no aparecen resultados de Endocrinología en la provincia de Málaga** dentro del cuadro médico (he consultado con \"Cuadro completo\", que es el que asumo por defecto).\n\nTe sugiero algunas opciones:\n\n1. **Confirma tu modalidad de póliza** (Medifiatc Start, ADVANCE, CORP…), ya que podría haber diferencias en la cobertura o en los profesionales disponibles.\n2. **Contacta directamente con FIATC** para que un asesor te indique los especialistas disponibles en tu zona:\n   - 📞 **900 300 201** (atención al cliente)\n3. **Si amplías la zona** (por ejemplo, a otra localidad de Málaga), puedo volver a intentarlo.\n4. Si en algún momento notas síntomas de urgencia relacionados con tu diabetes (mareos intensos, pérdida de conciencia…), contacta con **Urgencias Médicas FIATC: 911 227 468 / 932 825 284**.\n\n¿Quieres que pruebe con otra localidad o con alguna especialidad diferente? 😊",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 16.2
+  },
+  {
+    "id": 42,
+    "categoria": "B-sintoma",
+    "pregunta": "Tengo dolor de espalda crónico, ¿rehabilitación o traumatólogo en Zaragoza?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento no encuentro resultados disponibles para ninguna de estas tres especialidades (**Traumatología**, **Rehabilitación** y **Reumatología**) en Zaragoza con los filtros de búsqueda actuales.\n\nTe sugiero las siguientes opciones:\n\n1. 📞 **Contacta directamente con FIATC** para que un agente te confirme los profesionales disponibles en tu zona según tu póliza concreta.\n2. 🔄 **Ampliar la búsqueda**: ¿Quieres que pruebe sin filtrar por población, buscando en toda la provincia de Zaragoza?\n3. 📋 **Confirma tu modalidad de póliza**: He realizado la búsqueda sobre el **Cuadro completo**, pero si tienes *Medifiatc Start*, *Medifiatc ADVANCE* u otra modalidad, los resultados pueden variar.\n\n---\n\n> ⚠️ Recuerda que, para el **dolor de espalda crónico**, el orden habitual de consulta suele ser:\n> 1. **Traumatólogo** → para diagnóstico estructural (hernias, artrosis, etc.)\n> 2. **Reumatólogo** → si hay componente inflamatorio o sistémico\n> 3. **Rehabilitación** → para tratamiento y recuperación funcional\n\n¿Te amplío la búsqueda a toda la provincia o pruebo con algún ajuste?",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "buscar_profesionales",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 18.3
+  },
+  {
+    "id": 43,
+    "categoria": "B-sintoma",
+    "pregunta": "Necesito hacerme una mamografía en Sevilla",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento no he encontrado resultados disponibles en el cuadro médico para **Pruebas diagnósticas** ni **Ginecología** en **Sevilla**.\n\nEsto puede deberse a varias razones:\n\n- La modalidad de tu póliza puede limitar los centros disponibles. Te recomiendo confirmar tu **modalidad de póliza** (Cuadro completo, Medifiatc Start, Medifiatc ADVANCE, etc.) para ajustar la búsqueda.\n- Puede que haya centros en localidades cercanas a Sevilla.\n\n¿Quieres que pruebe con alguna localidad cercana o con una modalidad de póliza concreta? También puedes contactar directamente con FIATC para que te orienten:\n\n- 📞 **911 227 468 / 932 825 284** (Atención al asegurado)",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 15.7
+  },
+  {
+    "id": 44,
+    "categoria": "B-sintoma",
+    "pregunta": "Tengo cálculos renales, ¿qué especialista en Baleares?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lamentablemente, **no se han encontrado resultados de Urología** en Baleares dentro del cuadro médico en este momento. Esto puede deberse a varias razones:\n\n- 📋 **Modalidad de póliza**: Estoy buscando en el **Cuadro completo**. Si tienes una modalidad diferente (Medifiatc Start, ADVANCE, etc.), los resultados pueden variar.\n- 📍 **Poblacion concreta**: ¿Puedes indicarme una localidad más específica, como Palma de Mallorca, Ibiza, Mahón…? Podría afinar la búsqueda.\n\n---\n\n⚠️ **Si estás sufriendo un dolor intenso** (cólico nefrítico), te recomiendo contactar con **Urgencias Médicas de FIATC**:\n- 📞 **911 227 468 / 932 825 284**\n\n¿Te puedo ayudar con alguna otra búsqueda?",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 15.8
+  },
+  {
+    "id": 45,
+    "categoria": "B-sintoma",
+    "pregunta": "Me han detectado un soplo en el corazón en Vizcaya",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, no he encontrado especialistas en **Cardiología** disponibles en Vizcaya dentro del cuadro médico en este momento.\n\nAquí te dejo algunas opciones:\n\n1. 🔍 **Concretar la búsqueda**: ¿Tienes alguna localidad concreta en Vizcaya (por ejemplo, Bilbao, Barakaldo, Getxo...)? Puedo intentar buscar con más detalle.\n2. 📋 **Confirmar tu modalidad de póliza**: Te recomiendo revisar si tienes **Cuadro completo, Medifiatc Start, Medifiatc ADVANCE u otra modalidad**, ya que los resultados pueden variar.\n3. 📞 **Contactar con FIATC directamente**: Pueden orientarte sobre los cardiólogos disponibles en tu zona o derivarte correctamente.\n\n> ⚠️ **Nota importante**: Un soplo cardíaco debe ser evaluado por un especialista. Si en algún momento notas síntomas como dificultad para respirar, dolor en el pecho o mareos intensos, contacta con **Urgencias Médicas: 911 227 468 / 932 825 284**.\n\n¿Deseas que pruebe con alguna localidad concreta o amplíe la búsqueda a provincias cercanas?",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 19.0
+  },
+  {
+    "id": 46,
+    "categoria": "C-listados",
+    "pregunta": "¿Qué especialidades están disponibles en el cuadro médico?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Aquí tienes las **especialidades disponibles** en el cuadro médico de FIATC:\n\n| # | Especialidad |\n|---|---|\n| 1 | 🤧 Alergología |\n| 2 | 🫁 Aparato Digestivo |\n| 3 | ❤️ Cardiología |\n| 4 | 🧴 Dermatología |\n| 5 | 🩺 Endocrinología |\n| 6 | 🤰 Ginecología y Obstetricia |\n| 7 | 👨‍⚕️ Medicina General |\n| 8 | 🫀 Neumología |\n| 9 | 🧠 Neurología |\n| 10 | 👁️ Oftalmología |\n| 11 | 👂 Otorrinolaringología |\n| 12 | 👶 Pediatría |\n| 13 | 🧘 Psicología |\n| 14 | 💊 Psiquiatría |\n| 15 | 🦴 Reumatología |\n| 16 | 🦵 Traumatología |\n| 17 | 🫘 Urología |\n\nEn total, hay **17 especialidades** disponibles. Si quieres buscar profesionales de alguna especialidad en concreto, o si tienes algún síntoma y no sabes qué especialista necesitas, ¡dímelo y te ayudo! 😊",
+    "herramientas_usadas": [
+      "listar_especialidades"
+    ],
+    "tiempo_s": 9.2
+  },
+  {
+    "id": 47,
+    "categoria": "C-listados",
+    "pregunta": "¿En qué provincias tenéis cobertura?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Esta pregunta va más allá de lo que puedo consultar con las herramientas disponibles en la Guía Médica de FIATC, ya que estas están orientadas a buscar profesionales concretos por ubicación o especialidad.\n\nPara conocer el detalle completo de la cobertura geográfica de FIATC, te recomiendo:\n\n- 📞 **Llamar al servicio de atención al cliente de FIATC**\n- 🌐 **Visitar la web oficial:** [www.fiatc.es](https://www.fiatc.es)\n- 💬 **Contactar con tu mediador o agente de FIATC**\n\nLo que sí puedo hacer es **buscar profesionales en cualquier provincia o población que me indiques**, y así comprobar directamente si hay cobertura en esa zona. ¿Quieres que lo intente con alguna ubicación en concreto? 😊",
+    "herramientas_usadas": [],
+    "tiempo_s": 7.8
+  },
+  {
+    "id": 48,
+    "categoria": "C-listados",
+    "pregunta": "Muéstrame centros médicos en Madrid",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Aquí tienes algunos centros médicos disponibles en Madrid. Te muestro los 3 primeros:\n\n---\n\n1. **Dr. Miguel Ángel López Ruiz** — Traumatología\n   - 🏥 Centro Médico Castellana\n   - 📍 Paseo de la Castellana 200, Madrid (28046)\n   - 📞 915 000 003\n   - 🖥️ Reserva online: ✅ Sí\n\n2. **Dra. Sofía Hernández Vega** — Neurología\n   - 🏥 Centro Médico Castellana\n   - 📍 Paseo de la Castellana 200, Madrid (28046)\n   - 📞 915 000 003\n   - 🖥️ Reserva online: ✅ Sí\n\n3. **Dra. Beatriz Romero Calvo** — Dermatología\n   - 🏥 Clínica Salamanca\n   - 📍 Calle Velázquez 80, Madrid (28006)\n   - 📞 915 000 004\n   - 🖥️ Reserva online: ✅ Sí\n\n---\n\n> ⚠️ Los resultados muestran el **Cuadro completo** por defecto. Si tienes una modalidad de póliza diferente (Medifiatc Start, ADVANCE, etc.), confirma cuál tienes para ajustar la búsqueda.\n\n¿Quieres ver más resultados, filtrar por una especialidad concreta o buscar en una zona específica de Madrid? 😊",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 12.5
+  },
+  {
+    "id": 49,
+    "categoria": "C-listados",
+    "pregunta": "¿Qué especialidades hay disponibles en Vizcaya?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Aquí tienes las especialidades disponibles en el cuadro médico de FIATC:\n\n1. 🫁 Alergología\n2. 🫃 Aparato Digestivo\n3. ❤️ Cardiología\n4. 🩺 Dermatología\n5. 🔬 Endocrinología\n6. 🤰 Ginecología y Obstetricia\n7. 👨‍⚕️ Medicina General\n8. 🌬️ Neumología\n9. 🧠 Neurología\n10. 👁️ Oftalmología\n11. 👂 Otorrinolaringología\n12. 👶 Pediatría\n13. 🧠 Psicología\n14. 🧬 Psiquiatría\n15. 🦴 Reumatología\n16. 🦵 Traumatología\n17. 🫀 Urología\n\n> ⚠️ Sin embargo, **no he podido normalizar \"Vizcaya\" como ubicación** con los datos disponibles. Para poder mostrarte los profesionales de cada especialidad en esa zona, podrías indicarme:\n> - La **provincia exacta** (por ejemplo, \"Bizkaia\" o \"Bilbao\")\n> - O un **código postal** concreto\n\n¿Te gustaría buscar profesionales de alguna especialidad en particular? 😊",
+    "herramientas_usadas": [
+      "listar_especialidades",
+      "geolocalizar"
+    ],
+    "tiempo_s": 9.6
+  },
+  {
+    "id": 50,
+    "categoria": "C-listados",
+    "pregunta": "¿Hay dentistas u odontólogos en el cuadro médico?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Revisando la lista completa de especialidades del cuadro médico de FIATC, actualmente **no figura Odontología/Dentistas** como especialidad disponible.\n\nLas especialidades cubiertas son:\n\nAlergología · Aparato Digestivo · Cardiología · Dermatología · Endocrinología · Ginecología y Obstetricia · Medicina General · Neumología · Neurología · Oftalmología · Otorrinolaringología · Pediatría · Psicología · Psiquiatría · Reumatología · Traumatología · Urología\n\nSi tienes dudas sobre si tu póliza concreta incluye cobertura dental, te recomiendo que contactes directamente con FIATC para que puedan revisar las coberturas de tu contrato.\n\n¿Puedo ayudarte a buscar alguna de las especialidades disponibles? 😊",
+    "herramientas_usadas": [
+      "listar_especialidades"
+    ],
+    "tiempo_s": 8.0
+  },
+  {
+    "id": 51,
+    "categoria": "C-listados",
+    "pregunta": "¿Qué servicios de urgencias hay en Barcelona?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Aquí tienes los servicios de **urgencias médicas** disponibles en Barcelona. Te muestro los 3 primeros:\n\n---\n\n1. 🏥 **Dr. Joan Martí Puig** – Cardiología\n   - **Centro:** Centro Médico Diagonal\n   - **Dirección:** Av. Diagonal 123, Barcelona (08036)\n   - **Teléfono:** 932 000 001\n   - **Reserva online:** ✅ Sí\n\n2. 🏥 **Dr. Ramón Casals Vidal** – Traumatología\n   - **Centro:** Centro Médico Diagonal\n   - **Dirección:** Av. Diagonal 123, Barcelona (08036)\n   - **Teléfono:** 932 000 001\n   - **Reserva online:** ❌ No\n\n3. 🏥 **Dr. Pere Vidal Camps** – Medicina General\n   - **Centro:** Centro Médico Diagonal\n   - **Dirección:** Av. Diagonal 123, Barcelona (08036)\n   - **Teléfono:** 932 000 001\n   - **Reserva online:** ✅ Sí\n\n---\n\n> ⚠️ **Si se trata de una urgencia inmediata**, te recomiendo contactar directamente con el servicio de Urgencias Médicas de FIATC:\n> 📞 **911 227 468 / 932 825 284**\n\nHay un total de **4 resultados**. ¿Quieres que te muestre el cuarto, o necesitas filtrar por alguna especialidad concreta? También puedo darte más detalles de cualquier centro.",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 12.2
+  },
+  {
+    "id": 52,
+    "categoria": "C-listados",
+    "pregunta": "Dime los centros que tienen cardiología en Sevilla",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento **no se han encontrado resultados** para Cardiología en Sevilla dentro del cuadro médico de FIATC. Esto puede deberse a que:\n\n- La búsqueda está usando el **Cuadro completo** (ya que no indicaste tu modalidad de póliza). Te recomiendo confirmar qué tipo de póliza tienes, por si el resultado varía.\n- Puede haber centros disponibles en **localidades cercanas** a Sevilla.\n\n¿Quieres que amplíe la búsqueda a otras poblaciones de la provincia de Sevilla, o prefieres indicarme tu modalidad de póliza para afinar la búsqueda? También puedes contactar directamente con FIATC para que te orienten sobre los especialistas disponibles en tu zona.",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 12.2
+  },
+  {
+    "id": 53,
+    "categoria": "C-listados",
+    "pregunta": "¿Cuántas especialidades tiene el cuadro médico?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "El cuadro médico de FIATC cuenta con **17 especialidades**:\n\n1. Alergología\n2. Aparato Digestivo\n3. Cardiología\n4. Dermatología\n5. Endocrinología\n6. Ginecología y Obstetricia\n7. Medicina General\n8. Neumología\n9. Neurología\n10. Oftalmología\n11. Otorrinolaringología\n12. Pediatría\n13. Psicología\n14. Psiquiatría\n15. Reumatología\n16. Traumatología\n17. Urología\n\n¿Te gustaría buscar profesionales de alguna especialidad en concreto o en una zona determinada? 😊",
+    "herramientas_usadas": [
+      "listar_especialidades"
+    ],
+    "tiempo_s": 7.2
+  },
+  {
+    "id": 54,
+    "categoria": "C-listados",
+    "pregunta": "¿Hay hospitales en el cuadro médico?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Los hospitales en el cuadro médico de FIATC se agrupan dentro de la categoría general de **Médicos y hospitales**. Sin embargo, los hospitales como tales no aparecen como una especialidad independiente en el listado; las especialidades disponibles son las médicas (Cardiología, Traumatología, Ginecología, etc.).\n\nPara ayudarte a encontrar hospitales o centros hospitalarios, te recomiendo que me indiques:\n\n1. 📍 **¿En qué zona o ciudad estás buscando?** (provincia, población o código postal)\n2. 🏥 **¿Tienes alguna necesidad concreta?** (p. ej. urgencias, cirugía, alguna especialidad específica)\n3. 📋 **¿Cuál es tu modalidad de póliza?** (Cuadro completo, Medifiatc Start, ADVANCE...) — Por defecto asumo *Cuadro completo*.\n\nCon esa información podré darte resultados mucho más precisos. 😊",
+    "herramientas_usadas": [
+      "buscar_profesionales",
+      "listar_especialidades"
+    ],
+    "tiempo_s": 13.1
+  },
+  {
+    "id": 55,
+    "categoria": "C-listados",
+    "pregunta": "Muéstrame centros en Baleares con traumatología",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento **no se han encontrado resultados de Traumatología en Baleares** en el cuadro médico (Cuadro completo). Esto podría deberse a varias razones:\n\n- 📋 **La modalidad de tu póliza**: Algunos centros solo están disponibles en determinadas modalidades (Medifiatc Start, ADVANCE, etc.). ¿Podrías confirmar cuál es la tuya?\n- 🗺️ **La población concreta**: Si me indicas una población específica (por ejemplo, Palma de Mallorca, Ibiza, Menorca...), puedo intentar afinar la búsqueda.\n- 📞 **Contacto directo con FIATC**: Si el problema persiste, te recomiendo llamar al servicio de atención al asegurado para que te orienten.\n\n¿Quieres que pruebe con alguna población concreta o modalidad de póliza diferente? 😊",
+    "herramientas_usadas": [
+      "listar_especialidades",
+      "geolocalizar",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 15.7
+  },
+  {
+    "id": 56,
+    "categoria": "D-poblacion",
+    "pregunta": "Busco médico de medicina general en Hospitalet de Llobregat",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "No he encontrado resultados con \"Hospitalet de Llobregat\". Puede que el nombre esté registrado de forma diferente en la guía médica. ¿Podrías indicarme el **código postal** de la zona? Por ejemplo, L'Hospitalet de Llobregat tiene códigos postales como 08901, 08902, 08903, etc. Así podré afinar mejor la búsqueda. 🙂",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 13.2
+  },
+  {
+    "id": 57,
+    "categoria": "D-poblacion",
+    "pregunta": "¿Hay pediatras en Terrassa?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "No he podido localizar Terrassa automáticamente. ¿Podrías indicarme el código postal o la provincia? Por ejemplo, Terrassa está en la provincia de Barcelona — ¿confirmas que es así para que pueda buscar correctamente?",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades"
+    ],
+    "tiempo_s": 7.3
+  },
+  {
+    "id": 58,
+    "categoria": "D-poblacion",
+    "pregunta": "Necesito un cardiólogo en Bilbao",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, la búsqueda no ha devuelto resultados de cardiólogos en **Bilbao** dentro del **Cuadro Completo**. Esto puede deberse a varias razones:\n\n- En este momento no hay cardiólogos disponibles en esa población concreta.\n- Es posible que los especialistas estén registrados en una población cercana (como Barakaldo, Getxo o Basauri).\n\nTe propongo algunas opciones:\n\n1. 🔍 **Ampliar la búsqueda** a otras localidades cercanas de Vizcaya. ¿Te gustaría que lo intentara?\n2. 📋 **Confirmar tu modalidad de póliza** (Medifiatc Start, ADVANCE, CORP...) por si hubiera más opciones en tu cuadro específico.\n3. 📞 Si tienes alguna urgencia cardíaca, te recomiendo contactar de inmediato con el servicio de **Urgencias Médicas de FIATC**: **911 227 468 / 932 825 284**.\n\n¿Cómo prefieres que procedamos?",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 13.1
+  },
+  {
+    "id": 59,
+    "categoria": "D-poblacion",
+    "pregunta": "¿Hay centros médicos en Marbella?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "No he podido identificar Marbella de forma automática. ¿Podrías indicarme la **provincia** o el **código postal** para afinar la búsqueda? Por ejemplo:\n\n- *\"Marbella, Málaga\"*\n- *Código postal: 29600*",
+    "herramientas_usadas": [
+      "geolocalizar"
+    ],
+    "tiempo_s": 6.3
+  },
+  {
+    "id": 60,
+    "categoria": "D-poblacion",
+    "pregunta": "Busco especialista en Palma de Mallorca",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "He localizado **Palma (Baleares)**. ¿Qué tipo de especialista necesitas? Por ejemplo:\n\n- 🦴 Traumatólogo\n- ❤️ Cardiólogo\n- 👁️ Oftalmólogo\n- 🧠 Neurólogo\n- 🦷 Dentista\n- Otros...\n\nTambién puedes describirme tus **síntomas** y yo te indico qué especialidad necesitas. 😊",
+    "herramientas_usadas": [
+      "geolocalizar"
+    ],
+    "tiempo_s": 12.1
+  },
+  {
+    "id": 61,
+    "categoria": "D-poblacion",
+    "pregunta": "Necesito médico en Alcalá de Henares",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Gracias. No he podido normalizar automáticamente la ubicación. ¿Podrías indicarme el **código postal** o confirmarme que la provincia es **Madrid**? Así podré hacer la búsqueda correctamente.\n\nAdemás, ¿qué tipo de médico necesitas? Por ejemplo:\n- Medicina General\n- Pediatría\n- Cardiología\n- Traumatología\n- ¿O tienes algún síntoma concreto y no sabes qué especialista necesitas?",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades"
+    ],
+    "tiempo_s": 7.4
+  },
+  {
+    "id": 62,
+    "categoria": "D-poblacion",
+    "pregunta": "¿Hay traumatólogos en Sabadell?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "La especialidad **Traumatología** está disponible en el cuadro médico. Sin embargo, no he podido identificar automáticamente la ubicación de Sabadell. ¿Podrías indicarme el código postal o confirmar que es Sabadell (Barcelona)? Así podré hacer la búsqueda correctamente.",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades"
+    ],
+    "tiempo_s": 7.1
+  },
+  {
+    "id": 63,
+    "categoria": "D-poblacion",
+    "pregunta": "Busco dermatólogo en Esplugues de Llobregat",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "**Dermatología** es una especialidad válida en el cuadro médico. Sin embargo, no he podido normalizar automáticamente la ubicación de Esplugues de Llobregat. ¿Me podrías indicar el **código postal** o confirmar que se trata de la provincia de **Barcelona**? Así podré hacer la búsqueda correctamente. 😊",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades"
+    ],
+    "tiempo_s": 7.5
+  },
+  {
+    "id": 64,
+    "categoria": "D-poblacion",
+    "pregunta": "Necesito oftalmólogo en Getafe",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "La especialidad **Oftalmología** está confirmada. Sin embargo, no he podido geolocalizar Getafe automáticamente. ¿Podrías indicarme la provincia o el código postal? Por ejemplo:\n\n- **Getafe, Madrid**\n- **Código postal: 28901**\n\nAsí podré buscarte los oftalmólogos disponibles en esa zona. 😊",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades"
+    ],
+    "tiempo_s": 7.7
+  },
+  {
+    "id": 65,
+    "categoria": "D-poblacion",
+    "pregunta": "¿Hay neurólogos en Zaragoza capital?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento **no hay neurólogos disponibles en el cuadro médico en Zaragoza capital** según los resultados de la búsqueda.\n\nAlgunas opciones que te sugiero:\n\n- 🔍 **Ampliar la búsqueda a toda la provincia de Zaragoza**, por si hubiera profesionales en localidades cercanas.\n- 📋 **Verificar tu modalidad de póliza**, ya que algunos cuadros (Medifiatc Start, Medifiatc Advance, etc.) pueden tener coberturas diferentes. Si me indicas cuál tienes, puedo filtrar mejor.\n- 📞 **Contactar directamente con FIATC** para que te orienten sobre cómo acceder a un neurólogo en tu zona.\n\n¿Quieres que amplíe la búsqueda a toda la provincia o que pruebe con alguna otra opción?",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 11.3
+  },
+  {
+    "id": 66,
+    "categoria": "E-compleja",
+    "pregunta": "Necesito un ginecólogo y también un pediatra, estoy en Sevilla",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lamentablemente, la búsqueda no ha devuelto resultados para ninguna de las dos especialidades en Sevilla con el cuadro médico completo. Esto podría deberse a varios motivos:\n\n- 📋 **La modalidad de tu póliza** puede limitar los centros disponibles. ¿Sabes si tienes **Medifiatc Start**, **Medifiatc ADVANCE** u otro tipo de cobertura?\n- 📍 **La zona concreta**: ¿Estás en la ciudad de Sevilla o en algún municipio cercano (Dos Hermanas, Alcalá de Guadaíra, etc.)?\n\nAlgunas sugerencias:\n1. Puedes consultar directamente con FIATC llamando al **900 202 202** para que te orienten sobre los profesionales disponibles en tu zona.\n2. Si tienes alguna urgencia, recuerda que puedes llamar al **911 227 468 / 932 825 284** (Urgencias Médicas FIATC).\n\nDime si quieres que amplíe la búsqueda a otra zona o con otra modalidad de póliza. ¡Estoy aquí para ayudarte! 😊",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 13.8
+  },
+  {
+    "id": 67,
+    "categoria": "E-compleja",
+    "pregunta": "¿Hay algún centro en Madrid que tenga tanto neurología como psiquiatría?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "He encontrado resultados para neurología, pero lamentablemente **no hay resultados de psiquiatría** disponibles actualmente en Madrid dentro del cuadro médico.\n\nEsto es lo que tenemos para **neurología**:\n\n| | |\n|---|---|\n| 👩‍⚕️ **Especialista** | Dra. Sofía Hernández Vega |\n| 🏥 **Centro** | Centro Médico Castellana |\n| 📍 **Dirección** | Paseo de la Castellana 200, Madrid (28046) |\n| 📞 **Teléfono** | 915 000 003 |\n| 🖥️ **Reserva online** | ✅ Sí |\n\n---\n\nTe comento algunas cosas a tener en cuenta:\n\n- Actualmente **no hay un único centro en Madrid** que aparezca en el cuadro con ambas especialidades simultáneamente.\n- He utilizado el **Cuadro completo** por defecto. Si tienes una póliza **Medifiatc Start** u otra modalidad, los resultados podrían variar. ¿Puedes confirmarme tu modalidad?\n- Si necesitas psiquiatría con urgencia, puedes contactar con el servicio de **Urgencias Médicas de FIATC**: 📞 **911 227 468 / 932 825 284**.\n\n¿Quieres que amplíe la búsqueda a otras zonas de Madrid o que te ayude con algo más?",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 12.7
+  },
+  {
+    "id": 68,
+    "categoria": "E-compleja",
+    "pregunta": "Busco un cardiólogo urgente en Barcelona, preferiblemente con teléfono",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "⚠️ **Antes de continuar:** Si la situación es urgente o tienes síntomas cardíacos graves (dolor en el pecho, dificultad para respirar, etc.), te recomiendo llamar inmediatamente a **Urgencias Médicas FIATC: 911 227 468 / 932 825 284**.\n\n---\n\nDicho esto, aquí tienes el cardiólogo disponible en Barcelona:\n\n---\n\n**🩺 Dr. Joan Martí Puig** — Cardiología\n- 🏥 **Centro:** Centro Médico Diagonal\n- 📍 **Dirección:** Av. Diagonal 123, Barcelona (08036)\n- 📞 **Teléfono:** 932 000 001\n- 💻 **Reserva online:** ✅ Disponible\n\n---\n\n> ℹ️ He realizado la búsqueda en el **Cuadro Completo**. Si tienes una modalidad diferente (Medifiatc Start, ADVANCE, etc.), puede que la disponibilidad varíe. ¡Confirma tu póliza si necesitas ajustar la búsqueda!\n\n¿Quieres que busque en más zonas o que amplíe la búsqueda a municipios cercanos?",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 12.2
+  },
+  {
+    "id": 69,
+    "categoria": "E-compleja",
+    "pregunta": "Tengo que operarme de la rodilla, ¿qué tipo de cirujano necesito en Valencia?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento **no aparecen traumatólogos disponibles** en la provincia de Valencia dentro del cuadro médico de FIATC. Esto puede deberse a varias razones:\n\n- La modalidad de tu póliza puede limitar el cuadro disponible. Te recomiendo **confirmar tu modalidad** (Cuadro completo, Medifiatc Start, Medifiatc ADVANCE, etc.) y consultarlo directamente con FIATC.\n- Es posible que haya centros disponibles bajo otra categoría o código postal específico.\n\n### ¿Qué puedes hacer?\n\n1. 📞 **Llama a FIATC** para que te orienten sobre traumatólogos concertados en tu zona.\n2. 🌐 Consulta la **guía médica online** de FIATC con tu número de póliza para ver el cuadro actualizado.\n3. Si tienes **dolor agudo o urgencia**, contacta con el servicio de **Urgencias Médicas FIATC**: ☎️ **911 227 468 / 932 825 284**.\n\n¿Quieres que pruebe con alguna población cercana o con otra modalidad de cuadro?",
+    "herramientas_usadas": [
+      "mapear_sintoma_a_especialidad",
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 19.5
+  },
+  {
+    "id": 70,
+    "categoria": "E-compleja",
+    "pregunta": "Mi madre necesita un geriatra y yo un alergólogo, los dos en Barcelona",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento **no he podido obtener resultados** para ninguna de las dos especialidades en la provincia de Barcelona. Esto puede deberse a:\n\n- Un problema técnico temporal con la consulta al cuadro médico.\n- Que **Geriatría** no figura como especialidad disponible en el cuadro (no apareció en el listado oficial de especialidades), por lo que puede que esté integrada dentro de **Medicina General** u otra especialidad.\n- Que **Alergología** sí existe en el listado, pero no haya devuelto resultados en este momento.\n\nTe recomiendo:\n\n1. 📞 **Llamar a FIATC** directamente para que te orienten sobre disponibilidad de geriatría y alergología en tu zona.\n2. 🌐 Consultar la **Guía Médica online de FIATC** en [fiatc.es](https://www.fiatc.es) con tu número de póliza.\n\n> ⚠️ Recuerda también confirmar la **modalidad de tu póliza** (Cuadro completo, Medifiatc Start, etc.), ya que he realizado la búsqueda en \"Cuadro completo\" al no haberse indicado otra.\n\n¿Quieres que intente buscar con alguna otra especialidad relacionada, como Medicina General para el caso de tu madre?",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales",
+      "buscar_profesionales",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 18.5
+  },
+  {
+    "id": 71,
+    "categoria": "F-vaga",
+    "pregunta": "Quiero ir al médico",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "¡Hola! Estoy aquí para ayudarte a encontrar el profesional adecuado en el cuadro médico de FIATC. 😊\n\nPara poder orientarte mejor, necesito un poco más de información:\n\n1. **¿Qué tipo de médico necesitas?** ¿Tienes alguna especialidad en mente (médico de cabecera, cardiólogo, dermatólogo...)? O si lo prefieres, puedes describirme **qué te ocurre o cuál es tu motivo de consulta** y yo te ayudo a encontrar al especialista más adecuado.\n\n2. **¿Dónde te encuentras?** Dime tu ciudad, población o código postal para buscar profesionales cercanos a ti.",
+    "herramientas_usadas": [],
+    "tiempo_s": 6.5
+  },
+  {
+    "id": 72,
+    "categoria": "F-vaga",
+    "pregunta": "Me encuentro mal",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lamento que no te encuentres bien. Para poder ayudarte a encontrar al especialista más adecuado, ¿podrías describirme un poco más cómo te sientes? Por ejemplo:\n\n- ¿Qué síntomas tienes? (dolor, fiebre, mareos, etc.)\n- ¿En qué parte del cuerpo lo notas?\n- ¿Desde cuándo te encuentras así?\n\n> ⚠️ **Importante:** Si crees que puede ser una **urgencia médica**, te recomiendo que contactes de inmediato con el servicio de **Urgencias Médicas de FIATC**:\n> 📞 **911 227 468 / 932 825 284** (disponible 24h)",
+    "herramientas_usadas": [],
+    "tiempo_s": 6.6
+  },
+  {
+    "id": 73,
+    "categoria": "F-vaga",
+    "pregunta": "Necesito un especialista",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "¡Hola! Con mucho gusto te ayudo a encontrar el especialista que necesitas. 😊\n\nPara poder buscarte las mejores opciones, necesito un poco más de información:\n\n1. **¿Qué especialidad necesitas?** O si lo prefieres, puedes describirme **qué síntomas o molestias tienes** y yo me encargo de identificar el especialista adecuado.\n\n2. **¿En qué zona te encuentras?** (ciudad, código postal o provincia)",
+    "herramientas_usadas": [],
+    "tiempo_s": 7.0
+  },
+  {
+    "id": 74,
+    "categoria": "F-vaga",
+    "pregunta": "¿Podéis ayudarme?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "¡Claro que sí! 😊 Estoy aquí para ayudarte a encontrar profesionales del cuadro médico de FIATC.\n\nPuedo ayudarte a localizar **médicos, especialistas o centros médicos** según tus necesidades. Por ejemplo, puedes decirme:\n\n- 🩺 **Un síntoma o molestia** que tengas (y te ayudo a encontrar el especialista adecuado)\n- 📍 **Una zona o población** donde buscar\n- 👨‍⚕️ **Una especialidad concreta** que necesites\n- 🏥 **El nombre de un centro o médico** específico\n\n¿Qué necesitas hoy?",
+    "herramientas_usadas": [],
+    "tiempo_s": 6.9
+  },
+  {
+    "id": 75,
+    "categoria": "F-vaga",
+    "pregunta": "Tengo dolor",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Entiendo que tienes dolor. Para poder ayudarte a encontrar el especialista más adecuado, ¿podrías contarme un poco más? Por ejemplo:\n\n- **¿Dónde te duele?** (cabeza, espalda, rodilla, estómago, pecho...)\n- **¿Cómo es el dolor?** (agudo, sordo, continuo, intermitente...)\n- **¿Desde cuándo lo tienes?**\n\n⚠️ Si el dolor es **muy intenso o repentino**, te recomiendo que contactes con **Urgencias Médicas** de FIATC:\n- 📞 **911 227 468 / 932 825 284**\n\nCuéntame más y te ayudo a encontrar al profesional adecuado. 😊",
+    "herramientas_usadas": [],
+    "tiempo_s": 6.2
+  },
+  {
+    "id": 76,
+    "categoria": "F-vaga",
+    "pregunta": "Busco médico cerca de casa",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "¡Claro, estaré encantado de ayudarte! Para poder buscar médicos en tu zona necesito un poco más de información:\n\n1. **¿Dónde vives?** Puedes indicarme tu población, código postal o provincia.\n2. **¿Qué tipo de médico necesitas?** Por ejemplo: médico de cabecera (medicina general), alguna especialidad concreta, o si tienes algún síntoma que quieras que te oriente.\n\nSi no sabes qué especialista necesitas, cuéntame qué te ocurre y te ayudo a encontrar al profesional adecuado. 😊",
+    "herramientas_usadas": [],
+    "tiempo_s": 6.1
+  },
+  {
+    "id": 77,
+    "categoria": "F-vaga",
+    "pregunta": "Quiero una consulta médica",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "¡Hola! Estaré encantado de ayudarte a encontrar un médico en el cuadro médico de FIATC. 😊\n\nPara poder buscarte la opción más adecuada, necesito un poco más de información:\n\n1. **¿Qué tipo de consulta necesitas?** ¿Tienes algún síntoma o molestia concreta, o buscas una especialidad en particular? (por ejemplo: médico de cabecera, cardiólogo, dermatólogo...)\n\n2. **¿En qué zona te encuentras?** Puedes indicarme tu población, provincia o código postal.",
+    "herramientas_usadas": [],
+    "tiempo_s": 5.7
+  },
+  {
+    "id": 78,
+    "categoria": "F-vaga",
+    "pregunta": "¿Qué puedo hacer?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "¡Hola! Soy el asistente de la **Guía Médica de FIATC** y estoy aquí para ayudarte a encontrar profesionales y centros de nuestro cuadro médico. 😊\n\nAquí tienes algunas cosas que puedo hacer por ti:\n\n- 🔍 **Buscar médicos o especialistas** cerca de tu ubicación\n- 🏥 **Localizar centros médicos**, hospitales o clínicas\n- 🤒 **Identificar qué especialista necesitas** si me describes tus síntomas o molestias\n- 📋 **Obtener información detallada** de un centro concreto (dirección, teléfono, horario...)\n- 💻 **Filtrar por reserva online**, tipo de servicio o modalidad de póliza\n\n---\n\n**¿Cómo puedo ayudarte hoy?** Puedes decirme, por ejemplo:\n\n- *\"Me duele la espalda, ¿qué especialista necesito en Barcelona?\"*\n- *\"Busco un cardiólogo en Madrid con reserva online\"*\n- *\"¿Qué urgencias médicas hay cerca del código postal 46001?\"*\n\n> ⚠️ Si se trata de una **urgencia médica**, contacta inmediatamente con nuestro servicio de urgencias: **911 227 468 / 932 825 284**",
+    "herramientas_usadas": [],
+    "tiempo_s": 8.4
+  },
+  {
+    "id": 79,
+    "categoria": "F-vaga",
+    "pregunta": "Necesito atención médica urgente",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Si necesitas atención médica urgente, lo más importante es que contactes **inmediatamente** con el servicio de Urgencias Médicas de FIATC:\n\n🚨 **Urgencias Médicas FIATC**\n📞 **911 227 468**\n📞 **932 825 284**\n\nEstán disponibles para atenderte y orientarte de forma inmediata.\n\n---\n\nSi no se trata de una urgencia grave y simplemente necesitas atención lo antes posible, puedo ayudarte a **localizar un centro o especialista cercano**. Para ello, dime:\n\n1. 📍 ¿Dónde te encuentras? (población o código postal)\n2. 🩺 ¿Qué tipo de molestia o síntoma tienes?",
+    "herramientas_usadas": [],
+    "tiempo_s": 6.7
+  },
+  {
+    "id": 80,
+    "categoria": "F-vaga",
+    "pregunta": "Tengo un problema de salud",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "¡Hola! Lamento escuchar que tienes un problema de salud. Estoy aquí para ayudarte a encontrar el profesional adecuado en el cuadro médico de FIATC.\n\n¿Puedes contarme un poco más? Por ejemplo:\n\n- **¿Qué síntomas tienes** o qué te preocupa? (dolor, molestia, etc.)\n- **¿Dónde estás ubicado?** (ciudad, código postal o zona)\n\nCon esa información podré orientarte hacia el especialista más adecuado y buscar los centros más cercanos a ti. 😊\n\n> ⚠️ *Si se trata de una urgencia médica, te recomiendo que contactes directamente con el servicio de Urgencias Médicas: **911 227 468 / 932 825 284**.*",
+    "herramientas_usadas": [],
+    "tiempo_s": 7.0
+  },
+  {
+    "id": 81,
+    "categoria": "F-vaga",
+    "pregunta": "Me duele algo",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Entiendo que no te encuentras bien. Para poder ayudarte a encontrar el especialista más adecuado, ¿podrías describirme un poco más qué es lo que te duele o qué síntomas tienes?\n\nPor ejemplo:\n- ¿Dónde sientes el dolor? (cabeza, espalda, rodilla, estómago...)\n- ¿Tienes algún otro síntoma? (fiebre, mareos, dificultad para respirar...)\n\n⚠️ **Si crees que puede ser una urgencia**, te recomiendo contactar con el servicio de **Urgencias Médicas de FIATC**:\n- 📞 **911 227 468 / 932 825 284**",
+    "herramientas_usadas": [],
+    "tiempo_s": 6.4
+  },
+  {
+    "id": 82,
+    "categoria": "F-vaga",
+    "pregunta": "Necesito ayuda",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "¡Hola! Bienvenido al asistente de la Guía Médica de FIATC. 😊\n\nEstoy aquí para ayudarte a encontrar el profesional o centro médico que mejor se adapte a tus necesidades.\n\nPuedes contarme, por ejemplo:\n\n- 🩺 **Qué te ocurre o qué síntomas tienes** (y te ayudo a encontrar el especialista adecuado)\n- 🔍 **Qué tipo de especialista o servicio necesitas** (médico de cabecera, cardiólogo, dentista...)\n- 📍 **Dónde te encuentras** para buscar cerca de ti\n\n¿Cómo puedo ayudarte?",
+    "herramientas_usadas": [],
+    "tiempo_s": 6.4
+  },
+  {
+    "id": 83,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "¿Cuánto cuesta una consulta de cardiología?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, pero no puedo informarte sobre precios de consultas. Mi función es ayudarte a **encontrar profesionales del cuadro médico de FIATC** (médicos, especialistas y centros) que se ajusten a tus necesidades.\n\nPara consultas sobre precios, coberturas o condiciones de tu póliza, te recomiendo contactar directamente con FIATC a través de:\n- 📞 **Teléfono de atención al cliente**\n- 🌐 **www.fiatc.es**\n\n---\n\n¿Puedo ayudarte a **localizar un cardiólogo** en el cuadro médico? Si me dices tu ciudad o código postal, te busco opciones cercanas. 😊",
+    "herramientas_usadas": [],
+    "tiempo_s": 6.5
+  },
+  {
+    "id": 84,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "¿Cómo puedo darme de alta como asegurado?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "¡Hola! Entiendo que te interesa contratar un seguro con FIATC, pero ese proceso está fuera de mi ámbito. Soy el asistente de la **Guía Médica de FIATC** y mi función es ayudarte a encontrar profesionales y centros del cuadro médico.\n\nPara darte de alta como asegurado, te recomiendo:\n\n- 🌐 Visitar la web oficial de FIATC: **www.fiatc.es**\n- 📞 Llamar al servicio de atención al cliente de FIATC\n- 🏢 Acudir a una de sus oficinas o contactar con un mediador autorizado\n\n¿Hay algo en lo que pueda ayudarte relacionado con el **cuadro médico**? Por ejemplo, buscar un especialista, un centro médico o encontrar un profesional cerca de ti. 😊",
+    "herramientas_usadas": [],
+    "tiempo_s": 8.5
+  },
+  {
+    "id": 85,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "Quiero cancelar mi seguro",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Entiendo que quieres cancelar tu seguro. Sin embargo, **esto está fuera de mis funciones**, ya que soy el asistente de la **Guía Médica de FIATC** y solo puedo ayudarte a encontrar profesionales y centros del cuadro médico.\n\nPara gestionar la cancelación de tu póliza, te recomiendo que contactes directamente con FIATC a través de alguno de estos canales:\n\n- 🌐 **Web oficial:** [www.fiatc.es](https://www.fiatc.es)\n- 📞 **Teléfono de atención al cliente:** puedes encontrarlo en tu póliza o en la web oficial.\n- 🏢 **Tu mediador o agente de seguros** de confianza.\n\n¿Hay algo más en lo que pueda ayudarte en relación con el cuadro médico?",
+    "herramientas_usadas": [],
+    "tiempo_s": 7.0
+  },
+  {
+    "id": 86,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "¿Aceptáis nuevos asegurados?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, pero esa información está fuera de mi ámbito. Soy el asistente de la **Guía Médica de FIATC** y estoy especializado en ayudarte a encontrar profesionales y centros dentro del cuadro médico.\n\nPara consultas sobre **contratación de nuevos seguros**, te recomiendo que contactes directamente con FIATC a través de:\n\n- 🌐 **Web oficial:** [www.fiatc.es](https://www.fiatc.es)\n- 📞 **Teléfono de atención al cliente:** 932 432 020\n\n¿Puedo ayudarte a localizar algún médico o especialista de nuestro cuadro médico? 😊",
+    "herramientas_usadas": [],
+    "tiempo_s": 6.4
+  },
+  {
+    "id": 87,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "¿Cuál es el número de teléfono de atención al cliente de FIATC?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, pero mi función está limitada exclusivamente a ayudarte a encontrar **profesionales y centros del cuadro médico de FIATC** (médicos, especialistas, hospitales, etc.).\n\nPara contactar con el **servicio de atención al cliente de FIATC**, te recomiendo que:\n\n- 📌 Visites la web oficial de FIATC: **www.fiatc.es**\n- 📌 Consultes tu **póliza o documentación de seguro**, donde encontrarás los datos de contacto correspondientes a tu producto.\n\nSi lo que necesitas es una **urgencia médica**, puedes llamar al:\n- 📞 **911 227 468** o **932 825 284** (Urgencias Médicas FIATC)\n\n¿Puedo ayudarte a encontrar algún médico o especialista del cuadro médico? 😊",
+    "herramientas_usadas": [],
+    "tiempo_s": 9.5
+  },
+  {
+    "id": 88,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "¿Tenéis cobertura en el extranjero?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, pero esa pregunta está fuera de mi ámbito. Soy el asistente de la **Guía Médica de FIATC** y solo puedo ayudarte a localizar profesionales y centros del cuadro médico en España.\n\nPara consultar dudas sobre cobertura en el extranjero, te recomiendo que contactes directamente con FIATC a través de alguno de estos canales:\n\n- 📞 **Teléfono de atención al cliente**: [www.fiatc.es](https://www.fiatc.es)\n- 🌐 **Web oficial**: [www.fiatc.es](https://www.fiatc.es)\n- 📧 O a través del **área de clientes** de tu póliza.\n\n¿Puedo ayudarte con algo relacionado con el cuadro médico en España? 😊",
+    "herramientas_usadas": [],
+    "tiempo_s": 6.8
+  },
+  {
+    "id": 89,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "Busco médico en Las Palmas de Gran Canaria",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, en este momento **no aparecen resultados de Medicina General en la provincia de Las Palmas** dentro del cuadro médico de FIATC. Esto puede deberse a varias razones:\n\n- La cobertura en esa zona puede estar limitada según la modalidad de tu póliza.\n- Es posible que los centros estén registrados bajo otra denominación.\n\nTe recomiendo que:\n\n1. 📞 **Contactes directamente con FIATC** para que un agente pueda orientarte con tu póliza concreta.\n2. 🔍 Puedo buscar **otra especialidad** o en **otra localidad cercana** si lo deseas.\n\n> ℹ️ Ten en cuenta que estoy buscando en el **Cuadro completo**. Si tienes una modalidad diferente (Medifiatc Start, ADVANCE, etc.), indícamela y ajusto la búsqueda.\n\n¿En qué más puedo ayudarte?",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades",
+      "buscar_profesionales",
+      "buscar_profesionales"
+    ],
+    "tiempo_s": 17.3
+  },
+  {
+    "id": 90,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "¿Hay veterinarios en el cuadro médico?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, pero los **veterinarios no forman parte del cuadro médico de FIATC**. La guía médica está orientada exclusivamente a profesionales de la salud humana, como médicos de cabecera, especialistas, hospitales y centros de diagnóstico.\n\nSi lo deseas, puedo ayudarte a encontrar cualquier otro tipo de profesional o especialista médico. Por ejemplo:\n\n- 🩺 **Médicos de cabecera / Medicina general**\n- 🦷 **Odontólogos**\n- 🧠 **Psicólogos o psiquiatras**\n- 🦴 **Traumatólogos**\n- 👁️ **Oftalmólogos**\n- … y muchas más especialidades\n\n¿En qué puedo ayudarte? 😊",
+    "herramientas_usadas": [],
+    "tiempo_s": 6.3
+  },
+  {
+    "id": 91,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "Necesito un abogado",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Entiendo que necesitas ayuda legal, pero me temo que **no puedo ayudarte con eso**. Soy el asistente de la **Guía Médica de FIATC** y mi función es ayudarte a encontrar profesionales sanitarios del cuadro médico: médicos, especialistas, centros hospitalarios, etc.\n\nSi lo que necesitas es atención médica y no sabes a qué especialista acudir, estaré encantado de ayudarte. 😊\n\nPara consultas legales, te recomiendo que contactes directamente con **FIATC** a través de sus canales oficiales, ya que dependiendo de tu póliza podrías tener acceso a otros servicios.\n\n¿Hay algo relacionado con el cuadro médico en lo que pueda ayudarte?",
+    "herramientas_usadas": [],
+    "tiempo_s": 6.3
+  },
+  {
+    "id": 92,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "¿Cómo es el proceso de reembolso de gastos médicos?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Entiendo tu consulta, pero **el proceso de reembolso de gastos médicos es una gestión administrativa de tu póliza** que está fuera del ámbito de este asistente, cuyo cometido es ayudarte a localizar profesionales y centros del cuadro médico de FIATC.\n\nPara resolver tu duda sobre reembolsos, te recomiendo que contactes directamente con FIATC a través de alguno de estos canales:\n\n- 📞 **Teléfono de atención al cliente**: [consulta el número en tu póliza o en la web oficial de FIATC]\n- 🌐 **Área privada de asegurados**: [www.fiatc.es](https://www.fiatc.es)\n- 🏢 **Tu agente o mediador de seguros asignado**\n\n---\n\n¿Hay algo más en lo que pueda ayudarte? Por ejemplo, puedo **buscarte médicos o especialistas** del cuadro médico cerca de tu ubicación. 😊",
+    "herramientas_usadas": [],
+    "tiempo_s": 8.3
+  },
+  {
+    "id": 93,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "¿Aceptáis el seguro de la Seguridad Social?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, pero no puedo ayudarte con esa consulta. Soy el asistente de la **Guía Médica de FIATC**, un seguro médico privado, por lo que **no tenemos relación con la Seguridad Social** ni con su red de centros y profesionales.\n\nSi lo que buscas es información sobre el cuadro médico de FIATC, estaré encantado de ayudarte. Por ejemplo, puedo ayudarte a:\n\n- 🔍 **Encontrar médicos o especialistas** cerca de tu domicilio.\n- 🏥 **Localizar centros médicos** incluidos en tu póliza.\n- 📅 Informarte sobre **centros con reserva online**.\n\n¿En qué puedo ayudarte? 😊",
+    "herramientas_usadas": [],
+    "tiempo_s": 6.5
+  },
+  {
+    "id": 94,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "Busco médico en Lugo",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "No he podido normalizar automáticamente la ubicación. Para poder ayudarte mejor, necesito un par de datos:\n\n1. **¿Puedes indicarme el código postal o confirmarme si te refieres a la ciudad de Lugo (provincia de Lugo, Galicia)?**\n\n2. **¿Qué tipo de médico o especialidad necesitas?** Por ejemplo:\n   - Medicina General\n   - Cardiología, Dermatología, Pediatría...\n   - O si lo prefieres, descríbeme el motivo de consulta y te ayudo a identificar la especialidad adecuada.\n\n> ℹ️ Ten en cuenta que buscaré en el **Cuadro completo** por defecto. Si tienes una modalidad específica (Medifiatc Start, ADVANCE, etc.), indícamelo para afinar los resultados.",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades"
+    ],
+    "tiempo_s": 8.9
+  },
+  {
+    "id": 95,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "¿Hay médicos en Ceuta?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, el sistema no ha podido reconocer automáticamente **Ceuta** como ubicación. Esto puede deberse a que es una ciudad autónoma y no figura como provincia estándar en nuestra base de datos.\n\nTe sugiero que intentes:\n\n- 📮 **Indicar el código postal** de la zona (por ejemplo, 51001).\n- 🗺️ **Escribir una provincia cercana** o reformular la búsqueda.\n\n¿Puedes facilitarme el código postal o algún dato más de la ubicación?",
+    "herramientas_usadas": [
+      "geolocalizar"
+    ],
+    "tiempo_s": 8.2
+  },
+  {
+    "id": 96,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "¿Cuál es la diferencia entre vuestros planes de seguro?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Entiendo tu interés, pero mi función es ayudarte a encontrar profesionales y centros del **cuadro médico de FIATC**. No dispongo de información detallada sobre las coberturas o diferencias entre los distintos planes de seguro.\n\nPara resolver esa duda, te recomiendo:\n\n- 📞 **Llamar a FIATC** directamente a través de su servicio de atención al cliente.\n- 🌐 **Visitar la web oficial de FIATC**: [www.fiatc.es](https://www.fiatc.es), donde encontrarás información detallada sobre cada modalidad.\n- 🏢 **Acudir a una oficina o agente FIATC** para recibir asesoramiento personalizado.\n\n---\n\nEso sí, si ya tienes tu póliza y quieres **buscar un médico o especialista** del cuadro médico, ¡estoy aquí para ayudarte! ¿Qué necesitas? 😊",
+    "herramientas_usadas": [],
+    "tiempo_s": 7.9
+  },
+  {
+    "id": 97,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "¿Tenéis aplicación móvil?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "Lo siento, mi función es ayudarte a encontrar profesionales y centros del cuadro médico de FIATC, por lo que no dispongo de información sobre la aplicación móvil de FIATC.\n\nPara resolver esa duda, te recomiendo que:\n\n- 📞 **Llames al servicio de atención al cliente de FIATC**, donde podrán informarte con detalle.\n- 🌐 **Visites la web oficial de FIATC** (www.fiatc.es), donde encontrarás información sobre todos sus servicios digitales.\n\n¿Puedo ayudarte en algo relacionado con el **cuadro médico**? Por ejemplo, puedo ayudarte a encontrar un médico o especialista cerca de ti. 😊",
+    "herramientas_usadas": [],
+    "tiempo_s": 6.7
+  },
+  {
+    "id": 98,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "¿Puedo pedir cita online?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "¡Hola! Sí, muchos profesionales y centros del cuadro médico de FIATC ofrecen la opción de **reserva online**.\n\nPara ayudarte a encontrar uno que disponga de este servicio, necesito un poco más de información:\n\n1. **¿Qué especialidad o motivo de consulta necesitas?** (por ejemplo: médico de cabecera, dermatología, \"me duele la espalda\"...)\n2. **¿En qué zona o población te encuentras?**\n3. **¿Sabes qué modalidad de póliza tienes?** (Cuadro completo, Medifiatc Start, Medifiatc ADVANCE, etc.) Si no lo sabes, buscaré en el Cuadro completo por defecto.\n\nCon esos datos te busco profesionales con cita online disponible 😊",
+    "herramientas_usadas": [],
+    "tiempo_s": 7.1
+  },
+  {
+    "id": 99,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "¿Qué es FIATC?",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "FIATC es una compañía aseguradora española con más de 100 años de historia, especializada en seguros de salud, entre otros productos. Como asistente de la **Guía Médica de FIATC**, mi función es ayudarte a encontrar profesionales y centros médicos dentro de su cuadro médico.\n\nSin embargo, para información más detallada sobre la compañía, sus productos, coberturas o contratación, te recomiendo que consultes directamente su web oficial en **[www.fiatc.es](https://www.fiatc.es)** o contactes con su servicio de atención al cliente.\n\n¿En qué puedo ayudarte con el cuadro médico? 😊 Puedo ayudarte a localizar médicos, especialistas o centros cerca de ti.",
+    "herramientas_usadas": [],
+    "tiempo_s": 7.0
+  },
+  {
+    "id": 100,
+    "categoria": "G-fuera_dominio",
+    "pregunta": "Busco médico en Tenerife",
+    "ok": true,
+    "motivo_fallo": "",
+    "respuesta": "No he podido geolocalizar Tenerife automáticamente. ¿Podrías indicarme el **código postal** o la **localidad concreta** en Tenerife donde buscas? Por ejemplo: *Santa Cruz de Tenerife*, *La Laguna*, *Puerto de la Cruz*, etc.\n\nAdemás, ¿tienes alguna **especialidad** en mente o buscas un médico de **Medicina General**? Estas son las disponibles:\n\n> Alergología · Aparato Digestivo · Cardiología · Dermatología · Endocrinología · Ginecología y Obstetricia · **Medicina General** · Neumología · Neurología · Oftalmología · Otorrinolaringología · Pediatría · Psicología · Psiquiatría · Reumatología · Traumatología · Urología",
+    "herramientas_usadas": [
+      "geolocalizar",
+      "listar_especialidades"
+    ],
+    "tiempo_s": 8.3
+  }
+]

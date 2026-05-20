@@ -1,7 +1,7 @@
 import { Mastra } from '@mastra/core/mastra';
 import { PinoLogger } from '@mastra/loggers';
 import { DuckDBStore } from '@mastra/duckdb';
-import { DatasetsLibSQL, ExperimentsLibSQL } from '@mastra/libsql';
+import { DatasetsLibSQL, ExperimentsLibSQL, SchedulesLibSQL } from '@mastra/libsql';
 import { MSSQLStore } from '@mastra/mssql';
 import { Observability, MastraStorageExporter, MastraPlatformExporter, SensitiveDataFilter } from '@mastra/observability';
 import { weatherWorkflow } from './workflows/weather-workflow';
@@ -33,7 +33,8 @@ function createMssqlStorage() {
 }
 
 function createStorage() {
-  const datasetsDbUrl = process.env.MASTRA_DATASETS_DB_URL ?? 'file:./mastra-datasets.db';
+  const libsqlUrl =
+    process.env.MASTRA_LIBSQL_URL ?? process.env.MASTRA_DATASETS_DB_URL ?? 'file:./mastra-local.db';
   const observabilityDbPath =
     process.env.MASTRA_OBSERVABILITY_DB_PATH ?? './mastra-observability.duckdb';
   const storage = createMssqlStorage();
@@ -50,8 +51,9 @@ function createStorage() {
   storage.stores = {
     ...storage.stores,
     observability,
-    datasets: new DatasetsLibSQL({ url: datasetsDbUrl }),
-    experiments: new ExperimentsLibSQL({ url: datasetsDbUrl }),
+    schedules: new SchedulesLibSQL({ url: libsqlUrl }),
+    datasets: new DatasetsLibSQL({ url: libsqlUrl }),
+    experiments: new ExperimentsLibSQL({ url: libsqlUrl }),
   };
 
   return storage;

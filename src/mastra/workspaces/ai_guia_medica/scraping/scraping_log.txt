@@ -1,0 +1,84 @@
+============================================================
+Paso 1 — Leyendo sitemaps de provincia
+============================================================
+  ALAVA       :    110 URLs
+  ALBACETE    :    226 URLs
+  ALICANTE    :  1,041 URLs
+  ALMERIA     :    761 URLs
+  ASTURIAS    :    622 URLs
+  AVILA       :    119 URLs
+  BADAJOZ     :    395 URLs
+  BALEARES    :  1,851 URLs
+  BARCELONA   :  9,259 URLs
+  BURGOS      :    388 URLs
+  CACERES     :     64 URLs
+  CADIZ       :  1,155 URLs
+  CANTABRIA   :    135 URLs
+  CASTELLON   :    499 URLs
+  CIUDAD REAL :    335 URLs
+  CORDOBA     :    890 URLs
+  CUENCA      :     90 URLs
+  GIRONA      :  2,047 URLs
+  GRANADA     :    543 URLs
+  GUADALAJARA :    131 URLs
+  GUIPUZCOA   :    591 URLs
+  HUELVA      :    256 URLs
+  HUESCA      :    477 URLs
+  JAEN        :    263 URLs
+  LA RIOJA    :    217 URLs
+  LAS PALMAS  :    942 URLs
+  LEON        :    358 URLs
+  LLEIDA      :    831 URLs
+  LUGO        :    142 URLs
+  MADRID      :  7,473 URLs
+  MALAGA      :  2,812 URLs
+  MURCIA      :  1,562 URLs
+  NAVARRA     :     26 URLs
+  PALENCIA    :    185 URLs
+  PONTEVEDRA  :    480 URLs
+  SALAMANCA   :    259 URLs
+  SEGOVIA     :    177 URLs
+  SEVILLA     :  3,094 URLs
+  SORIA       :     61 URLs
+  TARRAGONA   :  1,273 URLs
+  TERUEL      :     89 URLs
+  TOLEDO      :    579 URLs
+  VALENCIA    :  3,082 URLs
+  VALLADOLID  :    934 URLs
+  VIZCAYA     :    449 URLs
+  ZAMORA      :    125 URLs
+  ZARAGOZA    :  1,138 URLs
+
+  Total URLs: 48,536
+
+============================================================
+Paso 2 — Separando centros de doctores individuales
+============================================================
+  Centros únicos:            8,962
+  Cónsules con doctores:     4,713
+  Doctores únicos (slugs):   22,370
+  Códigos de especialidad:   93
+
+============================================================
+Paso 3 — Mapeando 93 especialidades (1 petición/código)
+============================================================
+  Especialidades mapeadas: 92/93
+
+============================================================
+Paso 4 — Descargando 8,962 fichas de centro
+  (puede tardar varios minutos — 1 petición por centro único)
+============================================================
+  Procesados: 100/8,962  Procesados: 200/8,962  Procesados: 300/8,962  Procesados: 400/8,962  Procesados: 500/8,962  Procesados: 600/8,962  Procesados: 700/8,962  Procesados: 800/8,962  Procesados: 900/8,962  Procesados: 1,000/8,962  Procesados: 1,100/8,962  Procesados: 1,200/8,962  Procesados: 1,300/8,962  Procesados: 1,400/8,962  Procesados: 1,500/8,962  Procesados: 1,600/8,962  Procesados: 1,700/8,962  Procesados: 1,800/8,962  Procesados: 1,900/8,962  Procesados: 2,000/8,962  Procesados: 2,100/8,962  Procesados: 2,200/8,962  Procesados: 2,300/8,962  Procesados: 2,400/8,962  Procesados: 2,500/8,962  Procesados: 2,600/8,962  Procesados: 2,700/8,962  Procesados: 2,800/8,962  Procesados: 2,900/8,962  Procesados: 3,000/8,962  Procesados: 3,100/8,962  Procesados: 3,200/8,962  Procesados: 3,300/8,962  Procesados: 3,400/8,962  Procesados: 3,500/8,962  Procesados: 3,600/8,962  Procesados: 3,700/8,962  Procesados: 3,800/8,962  Procesados: 3,900/8,962  Procesados: 4,000/8,962  Procesados: 4,100/8,962  Procesados: 4,200/8,962  Procesados: 4,300/8,962  Procesados: 4,400/8,962  Procesados: 4,500/8,962  Procesados: 4,600/8,962  Procesados: 4,700/8,962  Procesados: 4,800/8,962  Procesados: 4,900/8,962  Procesados: 5,000/8,962  Procesados: 5,100/8,962  Procesados: 5,200/8,962  Procesados: 5,300/8,962  Procesados: 5,400/8,962  Procesados: 5,500/8,962  Procesados: 5,600/8,962  Procesados: 5,700/8,962  Procesados: 5,800/8,962  Procesados: 5,900/8,962  Procesados: 6,000/8,962  Procesados: 6,100/8,962  Procesados: 6,200/8,962  Procesados: 6,300/8,962  Procesados: 6,400/8,962  Procesados: 6,500/8,962  Procesados: 6,600/8,962  Procesados: 6,700/8,962  Procesados: 6,800/8,962  Procesados: 6,900/8,962  Procesados: 7,000/8,962  Procesados: 7,100/8,962  Procesados: 7,200/8,962  Procesados: 7,300/8,962  Procesados: 7,400/8,962  Procesados: 7,500/8,962  Procesados: 7,600/8,962  Procesados: 7,700/8,962  Procesados: 7,800/8,962  Procesados: 7,900/8,962  Procesados: 8,000/8,962  Procesados: 8,100/8,962  Procesados: 8,200/8,962  Procesados: 8,300/8,962  Procesados: 8,400/8,962  Procesados: 8,500/8,962  Procesados: 8,600/8,962  Procesados: 8,700/8,962  Procesados: 8,800/8,962  Procesados: 8,900/8,962  Procesados: 8,962/8,962
+
+============================================================
+Paso 5 — Construyendo JSON final con profesionales
+============================================================
+
+  Centros totales guardados: 6,522
+  Centros con profesionales: 1,587
+  Especialidades:            92
+  Errores/sin datos:         2440
+
+  Archivo: C:\Users\Ares\Documents\Proyectos Claude\poc-guia-medica-agent\data\cuadro_medico_sample.json
+
+¡Scraping completado!

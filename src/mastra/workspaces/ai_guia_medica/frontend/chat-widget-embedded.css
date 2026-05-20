@@ -1,0 +1,114 @@
+/* ================================================================
+   chat-widget-embedded.css  —  Panel lateral siempre visible
+   Importa chat-widget-v2.css y añade/sobreescribe para el modo
+   "sidebar embedido en la web existente".
+   ================================================================ */
+
+/* ── Layout raíz ───────────────────────────────────────────────── */
+html { height: 100%; margin: 0; }
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Las cabeceras (top-bar + menu-bar) ocupan el ancho completo
+   y solo toman su altura natural — nunca crecen. */
+.fiatc-headers {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+/* El split empieza justo debajo de las cabeceras */
+.page-wrapper {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ── Zona izquierda: contenido del sitio actual ────────────────── */
+/* Usar > para que solo afecte al hijo directo de page-wrapper,
+   no al .fiatc-headers que también tiene la clase site-main */
+.page-wrapper > .site-main {
+  flex: 1;
+  min-width: 0;
+  overflow-y: auto;
+  background: #f0f4f8;
+}
+
+/* ── Sidebar del chat (siempre visible) ────────────────────────── */
+.chat-sidebar {
+  width: 520px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-left: 2px solid var(--fiatc-azul);
+  box-shadow: -4px 0 16px rgba(0, 58, 112, 0.12);
+}
+
+.chat-sidebar-header {
+  background: var(--fiatc-azul);
+  color: white;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.chat-sidebar-header .sidebar-titulo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.chat-sidebar-header .sidebar-titulo strong {
+  font-size: 14px;
+  font-weight: 700;
+}
+.chat-sidebar-header .sidebar-titulo span {
+  font-size: 11px;
+  opacity: 0.75;
+}
+.chat-sidebar-header .sidebar-badge {
+  background: var(--fiatc-azul-badge);
+  color: var(--fiatc-azul);
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 3px;
+  letter-spacing: 0.3px;
+  flex-shrink: 0;
+}
+
+/* El div contenedor del widget ocupa todo el espacio restante */
+.chat-sidebar > #fiatc-chat {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* El .chat dentro del widget llena el sidebar */
+.chat-sidebar .chat {
+  flex: 1;
+  min-height: 0;
+  height: auto;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* Mensajes: fondo ligeramente distinto para separar del blanco del sidebar */
+.chat-sidebar .chat-mensajes {
+  background: #f7f9fc;
+}
+
+/* Input area: borde superior más marcado */
+.chat-sidebar .input-area {
+  border-top: 1px solid var(--fiatc-borde);
+  padding: 10px 12px;
+}

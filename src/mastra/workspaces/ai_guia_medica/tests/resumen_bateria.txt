@@ -1,0 +1,32 @@
+======================================================================
+INFORME BATERÍA 100 PREGUNTAS — 2026-05-08 23:47
+======================================================================
+Total preguntas : 100
+Pasadas         : 99 (99.0%)
+Falladas        : 1 (1.0%)
+Tiempo total    : 1155s  |  Tiempo medio/preg: 11.5s
+
+RESULTADOS POR CATEGORÍA
+----------------------------------------------------------------------
+  A    24/25  (96%)
+  B    20/20  (100%)
+  C    10/10  (100%)
+  D    10/10  (100%)
+  E     5/5   (100%)
+  F    12/12  (100%)
+  G    18/18  (100%)
+
+HERRAMIENTAS USADAS
+----------------------------------------------------------------------
+  buscar_profesionales                       72x
+  geolocalizar                               67x
+  listar_especialidades                      53x
+  mapear_sintoma_a_especialidad              19x
+
+DETALLE DE FALLOS
+----------------------------------------------------------------------
+  # 10 [A-especialidad_provincia]
+       P: Busco reumatólogo en Sevilla
+       F: Timeout
+
+======================================================================

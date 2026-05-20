@@ -1,0 +1,110 @@
+{
+  "profesionales": [],
+  "especialidades": [
+    "Traumatología",
+    "Cardiología",
+    "Medicina General",
+    "Pediatría",
+    "Neurología"
+  ],
+  "provincias": ["BARCELONA", "TARRAGONA"],
+  "centros": [
+    {
+      "id": "centro-cunit-trauma",
+      "nombre": "Centro Medico Cunit Traumatologia",
+      "direccion": "Carrer Major 12",
+      "poblacion": "Cunit",
+      "provincia": "TARRAGONA",
+      "codigo_postal": "43881",
+      "telefono": "977 123 001",
+      "horario": "L-V 9:00-20:00",
+      "especialidades": ["Traumatología", "Medicina General"],
+      "cuadros": ["Cuadro completo"],
+      "latitud": 41.1975,
+      "longitud": 1.6672,
+      "reserva_online": true,
+      "preferente": false,
+      "profesionales": [
+        {
+          "nombre": "Dr. Joan Marti",
+          "especialidades": ["Traumatología"],
+          "reserva_online": true,
+          "prof": "00814",
+          "ref": "dr-joan-marti-008140000089120040"
+        }
+      ],
+      "consul": "89120",
+      "fact": "2651"
+    },
+    {
+      "id": "centro-vilanova-trauma",
+      "nombre": "Clinica Traumatologica Vilanova",
+      "direccion": "Avinguda de la Pau 45",
+      "poblacion": "Vilanova i la Geltru",
+      "provincia": "BARCELONA",
+      "codigo_postal": "08800",
+      "telefono": "938 123 002",
+      "horario": "L-V 8:30-19:30",
+      "especialidades": ["Traumatología"],
+      "cuadros": ["Cuadro completo"],
+      "latitud": 41.2235,
+      "longitud": 1.7256,
+      "reserva_online": true,
+      "preferente": true,
+      "profesionales": [],
+      "consul": "89121",
+      "fact": "2651"
+    },
+    {
+      "id": "centro-tarragona-cardio",
+      "nombre": "Centro Cardiologico Tarragona",
+      "direccion": "Rambla Nova 8",
+      "poblacion": "Tarragona",
+      "provincia": "TARRAGONA",
+      "codigo_postal": "43001",
+      "telefono": "977 456 789",
+      "horario": "L-V 9:00-18:00",
+      "especialidades": ["Cardiología"],
+      "cuadros": ["Cuadro completo"],
+      "latitud": 41.1189,
+      "longitud": 1.2445,
+      "reserva_online": false,
+      "preferente": false,
+      "profesionales": []
+    },
+    {
+      "id": "centro-barcelona-pediatria",
+      "nombre": "CAP Gracia Pediatria",
+      "direccion": "Carrer Gran de Gracia 120",
+      "poblacion": "Barcelona",
+      "provincia": "BARCELONA",
+      "codigo_postal": "08012",
+      "telefono": "932 123 456",
+      "horario": "L-V 8:00-20:00",
+      "especialidades": ["Pediatría", "Medicina General"],
+      "cuadros": ["Cuadro completo"],
+      "latitud": 41.4036,
+      "longitud": 2.1589,
+      "reserva_online": true,
+      "preferente": false,
+      "profesionales": []
+    },
+    {
+      "id": "centro-smp-vilanova",
+      "nombre": "SMP Vilanova",
+      "direccion": "Carrer de la Industria 22",
+      "poblacion": "Vilanova i la Geltru",
+      "provincia": "BARCELONA",
+      "codigo_postal": "08800",
+      "telefono": "938 999 001",
+      "horario": "L-V 9:00-21:00",
+      "especialidades": ["Medicina General", "Traumatología", "Cardiología"],
+      "cuadros": ["Cuadro completo"],
+      "latitud": 41.221,
+      "longitud": 1.728,
+      "reserva_online": true,
+      "preferente": true,
+      "profesionales": []
+    }
+  ]
+}

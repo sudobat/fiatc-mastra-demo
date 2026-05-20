@@ -1,0 +1,2175 @@
+{
+  "palpitaciones": [
+    "Cardiología"
+  ],
+  "taquicardia": [
+    "Cardiología"
+  ],
+  "arritmia": [
+    "Cardiología"
+  ],
+  "dolor en el pecho": [
+    "Cardiología",
+    "Medicina General"
+  ],
+  "dolor de pecho": [
+    "Cardiología",
+    "Medicina General"
+  ],
+  "infarto": [
+    "Cardiología"
+  ],
+  "angina de pecho": [
+    "Cardiología"
+  ],
+  "tension alta": [
+    "Cardiología",
+    "Medicina General"
+  ],
+  "tensión alta": [
+    "Cardiología",
+    "Medicina General"
+  ],
+  "hipertension": [
+    "Cardiología",
+    "Medicina General"
+  ],
+  "hipertensión": [
+    "Cardiología",
+    "Medicina General"
+  ],
+  "hipotension": [
+    "Cardiología",
+    "Medicina General"
+  ],
+  "hipotensión": [
+    "Cardiología",
+    "Medicina General"
+  ],
+  "soplo cardiaco": [
+    "Cardiología"
+  ],
+  "soplo": [
+    "Cardiología"
+  ],
+  "marcapasos": [
+    "Cardiología"
+  ],
+  "ecocardiograma": [
+    "Cardiología"
+  ],
+  "holter": [
+    "Cardiología"
+  ],
+  "electrocardiograma": [
+    "Cardiología"
+  ],
+  "prueba de esfuerzo": [
+    "Cardiología"
+  ],
+  "cardiologo": [
+    "Cardiología"
+  ],
+  "cardiólogo": [
+    "Cardiología"
+  ],
+  "cardiologia": [
+    "Cardiología"
+  ],
+  "cardiología": [
+    "Cardiología"
+  ],
+  "varices": [
+    "Angiología/Cir.Vascular"
+  ],
+  "varices piernas": [
+    "Angiología/Cir.Vascular"
+  ],
+  "trombosis": [
+    "Angiología/Cir.Vascular",
+    "Hematología/Hemoterapia"
+  ],
+  "flebitis": [
+    "Angiología/Cir.Vascular"
+  ],
+  "mala circulacion": [
+    "Angiología/Cir.Vascular"
+  ],
+  "mala circulación": [
+    "Angiología/Cir.Vascular"
+  ],
+  "piernas hinchadas": [
+    "Angiología/Cir.Vascular"
+  ],
+  "edema en piernas": [
+    "Angiología/Cir.Vascular"
+  ],
+  "aneurisma": [
+    "Angiología/Cir.Vascular",
+    "Cirug.Cardiovascular"
+  ],
+  "angiologo": [
+    "Angiología/Cir.Vascular"
+  ],
+  "angiólogo": [
+    "Angiología/Cir.Vascular"
+  ],
+  "bypass": [
+    "Cirug.Cardiovascular"
+  ],
+  "cirugia cardiaca": [
+    "Cirug.Cardiovascular"
+  ],
+  "cirugía cardíaca": [
+    "Cirug.Cardiovascular"
+  ],
+  "valvula cardiaca": [
+    "Cirug.Cardiovascular",
+    "Cardiología"
+  ],
+  "válvula cardíaca": [
+    "Cirug.Cardiovascular",
+    "Cardiología"
+  ],
+  "dolor de cabeza": [
+    "Neurología",
+    "Medicina General"
+  ],
+  "cefalea": [
+    "Neurología",
+    "Medicina General"
+  ],
+  "migraña": [
+    "Neurología"
+  ],
+  "migrana": [
+    "Neurología"
+  ],
+  "jaqueca": [
+    "Neurología"
+  ],
+  "epilepsia": [
+    "Neurología"
+  ],
+  "convulsiones": [
+    "Neurología",
+    "Pediatría"
+  ],
+  "convulsion": [
+    "Neurología",
+    "Pediatría"
+  ],
+  "convulsión": [
+    "Neurología",
+    "Pediatría"
+  ],
+  "temblor": [
+    "Neurología"
+  ],
+  "parkinson": [
+    "Neurología",
+    "Geriatría"
+  ],
+  "esclerosis multiple": [
+    "Neurología"
+  ],
+  "esclerosis múltiple": [
+    "Neurología"
+  ],
+  "esclerosis lateral amiotrofica": [
+    "Neurología"
+  ],
+  "alzheimer": [
+    "Neurología",
+    "Geriatría"
+  ],
+  "demencia": [
+    "Neurología",
+    "Geriatría",
+    "Psiquiatría"
+  ],
+  "perdida de memoria": [
+    "Neurología",
+    "Geriatría"
+  ],
+  "pérdida de memoria": [
+    "Neurología",
+    "Geriatría"
+  ],
+  "neuralgia": [
+    "Neurología",
+    "Tratamiento De Dolor"
+  ],
+  "neuropatia": [
+    "Neurología"
+  ],
+  "neuropatía": [
+    "Neurología"
+  ],
+  "ictus": [
+    "Neurología"
+  ],
+  "derrame cerebral": [
+    "Neurología"
+  ],
+  "tumor cerebral": [
+    "Neurocirugía",
+    "Oncología Medica"
+  ],
+  "hernia discal": [
+    "Traumatología",
+    "Neurocirugía"
+  ],
+  "neurocirugia": [
+    "Neurocirugía"
+  ],
+  "neurocirugía": [
+    "Neurocirugía"
+  ],
+  "neurologo": [
+    "Neurología"
+  ],
+  "neurólogo": [
+    "Neurología"
+  ],
+  "neurologia": [
+    "Neurología"
+  ],
+  "neurología": [
+    "Neurología"
+  ],
+  "electromiografia": [
+    "Neurofisiolog.Clinic",
+    "Neurología"
+  ],
+  "electromiografía": [
+    "Neurofisiolog.Clinic",
+    "Neurología"
+  ],
+  "electroencefalograma": [
+    "Neurofisiolog.Clinic",
+    "Neurología"
+  ],
+  "mareo": [
+    "Otorrinolaringología",
+    "Neurología"
+  ],
+  "mareos": [
+    "Otorrinolaringología",
+    "Neurología"
+  ],
+  "vertigo": [
+    "Otorrinolaringología",
+    "Neurología"
+  ],
+  "vértigo": [
+    "Otorrinolaringología",
+    "Neurología"
+  ],
+  "desmayo": [
+    "Cardiología",
+    "Neurología",
+    "Medicina General"
+  ],
+  "sincope": [
+    "Cardiología",
+    "Neurología"
+  ],
+  "síncope": [
+    "Cardiología",
+    "Neurología"
+  ],
+  "dolor abdominal": [
+    "Aparato Digestivo",
+    "Medicina General"
+  ],
+  "dolor de barriga": [
+    "Aparato Digestivo",
+    "Medicina General",
+    "Pediatría"
+  ],
+  "dolor de tripa": [
+    "Aparato Digestivo",
+    "Medicina General",
+    "Pediatría"
+  ],
+  "dolor de estomago": [
+    "Aparato Digestivo"
+  ],
+  "dolor de estómago": [
+    "Aparato Digestivo"
+  ],
+  "ardor de estomago": [
+    "Aparato Digestivo"
+  ],
+  "ardor de estómago": [
+    "Aparato Digestivo"
+  ],
+  "acidez": [
+    "Aparato Digestivo"
+  ],
+  "reflujo": [
+    "Aparato Digestivo"
+  ],
+  "gastritis": [
+    "Aparato Digestivo"
+  ],
+  "ulcera": [
+    "Aparato Digestivo"
+  ],
+  "úlcera": [
+    "Aparato Digestivo"
+  ],
+  "diarrea": [
+    "Aparato Digestivo",
+    "Medicina General"
+  ],
+  "estreñimiento": [
+    "Aparato Digestivo"
+  ],
+  "estrenimiento": [
+    "Aparato Digestivo"
+  ],
+  "hemorroides": [
+    "Aparato Digestivo",
+    "Cir. General/Ap. Digestivo"
+  ],
+  "almorranas": [
+    "Aparato Digestivo",
+    "Cir. General/Ap. Digestivo"
+  ],
+  "fisura anal": [
+    "Aparato Digestivo",
+    "Cir. General/Ap. Digestivo"
+  ],
+  "higado": [
+    "Aparato Digestivo"
+  ],
+  "hígado": [
+    "Aparato Digestivo"
+  ],
+  "hepatitis": [
+    "Aparato Digestivo",
+    "Medicina Interna"
+  ],
+  "vesicula": [
+    "Aparato Digestivo",
+    "Cir. General/Ap. Digestivo"
+  ],
+  "vesícula": [
+    "Aparato Digestivo",
+    "Cir. General/Ap. Digestivo"
+  ],
+  "calculos biliares": [
+    "Aparato Digestivo",
+    "Cir. General/Ap. Digestivo"
+  ],
+  "cálculos biliares": [
+    "Aparato Digestivo",
+    "Cir. General/Ap. Digestivo"
+  ],
+  "piedras vesicula": [
+    "Aparato Digestivo",
+    "Cir. General/Ap. Digestivo"
+  ],
+  "colitis": [
+    "Aparato Digestivo"
+  ],
+  "enfermedad de crohn": [
+    "Aparato Digestivo"
+  ],
+  "colon irritable": [
+    "Aparato Digestivo"
+  ],
+  "intolerancia a la lactosa": [
+    "Aparato Digestivo",
+    "Alergología"
+  ],
+  "celiaco": [
+    "Aparato Digestivo",
+    "Alergología"
+  ],
+  "celíaco": [
+    "Aparato Digestivo",
+    "Alergología"
+  ],
+  "celiaquia": [
+    "Aparato Digestivo",
+    "Alergología"
+  ],
+  "celiaquía": [
+    "Aparato Digestivo",
+    "Alergología"
+  ],
+  "intolerancia al gluten": [
+    "Aparato Digestivo",
+    "Alergología"
+  ],
+  "endoscopia": [
+    "Endoscopia Digestiva (Con Sedacion)",
+    "Aparato Digestivo"
+  ],
+  "colonoscopia": [
+    "Endoscopia Digestiva (Con Sedacion)",
+    "Aparato Digestivo"
+  ],
+  "gastroscopia": [
+    "Endoscopia Digestiva (Con Sedacion)",
+    "Aparato Digestivo"
+  ],
+  "hernia abdominal": [
+    "Cir. General/Ap. Digestivo"
+  ],
+  "hernia inguinal": [
+    "Cir. General/Ap. Digestivo"
+  ],
+  "hernia umbilical": [
+    "Cir. General/Ap. Digestivo"
+  ],
+  "apendicitis": [
+    "Cir. General/Ap. Digestivo"
+  ],
+  "digestivo": [
+    "Aparato Digestivo"
+  ],
+  "gastroenterologo": [
+    "Aparato Digestivo"
+  ],
+  "gastroenterólogo": [
+    "Aparato Digestivo"
+  ],
+  "nauseas": [
+    "Aparato Digestivo",
+    "Medicina General"
+  ],
+  "náuseas": [
+    "Aparato Digestivo",
+    "Medicina General"
+  ],
+  "vomitos": [
+    "Aparato Digestivo",
+    "Medicina General"
+  ],
+  "vómitos": [
+    "Aparato Digestivo",
+    "Medicina General"
+  ],
+  "tos": [
+    "Neumología",
+    "Medicina General"
+  ],
+  "tos persistente": [
+    "Neumología",
+    "Medicina General"
+  ],
+  "bronquitis": [
+    "Neumología",
+    "Medicina General"
+  ],
+  "neumonia": [
+    "Neumología",
+    "Medicina General"
+  ],
+  "neumonía": [
+    "Neumología",
+    "Medicina General"
+  ],
+  "pulmones": [
+    "Neumología"
+  ],
+  "asma": [
+    "Neumología",
+    "Alergología"
+  ],
+  "epoc": [
+    "Neumología"
+  ],
+  "enfisema": [
+    "Neumología"
+  ],
+  "apnea del sueno": [
+    "Neumología"
+  ],
+  "apnea del sueño": [
+    "Neumología"
+  ],
+  "ronquidos": [
+    "Neumología",
+    "Otorrinolaringología"
+  ],
+  "dificultad para respirar": [
+    "Neumología",
+    "Cardiología",
+    "Medicina General"
+  ],
+  "falta de aire": [
+    "Neumología",
+    "Cardiología"
+  ],
+  "ahogo": [
+    "Neumología",
+    "Cardiología"
+  ],
+  "fumador": [
+    "Neumología"
+  ],
+  "espirometria": [
+    "Neumología"
+  ],
+  "espirometría": [
+    "Neumología"
+  ],
+  "neumologo": [
+    "Neumología"
+  ],
+  "neumólogo": [
+    "Neumología"
+  ],
+  "dolor de oido": [
+    "Otorrinolaringología",
+    "Pediatría"
+  ],
+  "dolor de oído": [
+    "Otorrinolaringología",
+    "Pediatría"
+  ],
+  "otitis": [
+    "Otorrinolaringología",
+    "Pediatría"
+  ],
+  "sordera": [
+    "Otorrinolaringología"
+  ],
+  "hipoacusia": [
+    "Otorrinolaringología"
+  ],
+  "tinnitus": [
+    "Otorrinolaringología"
+  ],
+  "acufenos": [
+    "Otorrinolaringología"
+  ],
+  "acúfenos": [
+    "Otorrinolaringología"
+  ],
+  "pitidos en el oido": [
+    "Otorrinolaringología"
+  ],
+  "sinusitis": [
+    "Otorrinolaringología"
+  ],
+  "rinitis": [
+    "Otorrinolaringología",
+    "Alergología"
+  ],
+  "rinitis alergica": [
+    "Alergología",
+    "Otorrinolaringología"
+  ],
+  "rinitis alérgica": [
+    "Alergología",
+    "Otorrinolaringología"
+  ],
+  "afonia": [
+    "Otorrinolaringología"
+  ],
+  "afonía": [
+    "Otorrinolaringología"
+  ],
+  "ronquera": [
+    "Otorrinolaringología"
+  ],
+  "disfonia": [
+    "Otorrinolaringología"
+  ],
+  "disfonía": [
+    "Otorrinolaringología"
+  ],
+  "amigdalas": [
+    "Otorrinolaringología",
+    "Pediatría"
+  ],
+  "amígdalas": [
+    "Otorrinolaringología",
+    "Pediatría"
+  ],
+  "amigdalitis": [
+    "Otorrinolaringología",
+    "Pediatría"
+  ],
+  "anginas": [
+    "Otorrinolaringología",
+    "Pediatría"
+  ],
+  "dolor de garganta": [
+    "Otorrinolaringología",
+    "Medicina General"
+  ],
+  "audifonos": [
+    "Otorrinolaringología"
+  ],
+  "audífonos": [
+    "Otorrinolaringología"
+  ],
+  "tabique desviado": [
+    "Otorrinolaringología"
+  ],
+  "vegetaciones": [
+    "Otorrinolaringología",
+    "Pediatría"
+  ],
+  "otorrino": [
+    "Otorrinolaringología"
+  ],
+  "otorrinolaringologia": [
+    "Otorrinolaringología"
+  ],
+  "otorrinolaringología": [
+    "Otorrinolaringología"
+  ],
+  "vista cansada": [
+    "Oftalmología"
+  ],
+  "presbicia": [
+    "Oftalmología"
+  ],
+  "miopia": [
+    "Oftalmología"
+  ],
+  "miopía": [
+    "Oftalmología"
+  ],
+  "hipermetropia": [
+    "Oftalmología"
+  ],
+  "hipermetropía": [
+    "Oftalmología"
+  ],
+  "astigmatismo": [
+    "Oftalmología"
+  ],
+  "cataratas": [
+    "Oftalmología"
+  ],
+  "glaucoma": [
+    "Oftalmología"
+  ],
+  "retina": [
+    "Oftalmología"
+  ],
+  "desprendimiento de retina": [
+    "Oftalmología"
+  ],
+  "perdida de vision": [
+    "Oftalmología"
+  ],
+  "pérdida de visión": [
+    "Oftalmología"
+  ],
+  "vision borrosa": [
+    "Oftalmología"
+  ],
+  "visión borrosa": [
+    "Oftalmología"
+  ],
+  "ojo rojo": [
+    "Oftalmología"
+  ],
+  "conjuntivitis": [
+    "Oftalmología"
+  ],
+  "orzuelo": [
+    "Oftalmología"
+  ],
+  "graduacion gafas": [
+    "Oftalmología"
+  ],
+  "graduación gafas": [
+    "Oftalmología"
+  ],
+  "lentillas": [
+    "Oftalmología"
+  ],
+  "operacion de cataratas": [
+    "Oftalmología"
+  ],
+  "operación de cataratas": [
+    "Oftalmología"
+  ],
+  "cirugia refractiva": [
+    "Oftalmología"
+  ],
+  "cirugía refractiva": [
+    "Oftalmología"
+  ],
+  "oftalmologo": [
+    "Oftalmología"
+  ],
+  "oftalmólogo": [
+    "Oftalmología"
+  ],
+  "oftalmologia": [
+    "Oftalmología"
+  ],
+  "oftalmología": [
+    "Oftalmología"
+  ],
+  "oculista": [
+    "Oftalmología"
+  ],
+  "vista del nino": [
+    "Oftalmologia Pediatrica",
+    "Pediatría"
+  ],
+  "vista del niño": [
+    "Oftalmologia Pediatrica",
+    "Pediatría"
+  ],
+  "estrabismo": [
+    "Oftalmologia Pediatrica",
+    "Oftalmología"
+  ],
+  "manchas en la piel": [
+    "Dermatología"
+  ],
+  "lunares": [
+    "Dermatología"
+  ],
+  "lunar": [
+    "Dermatología"
+  ],
+  "melanoma": [
+    "Dermatología",
+    "Oncología Medica"
+  ],
+  "acne": [
+    "Dermatología"
+  ],
+  "acné": [
+    "Dermatología"
+  ],
+  "granos": [
+    "Dermatología"
+  ],
+  "espinillas": [
+    "Dermatología"
+  ],
+  "psoriasis": [
+    "Dermatología"
+  ],
+  "eczema": [
+    "Dermatología"
+  ],
+  "eccema": [
+    "Dermatología"
+  ],
+  "dermatitis": [
+    "Dermatología"
+  ],
+  "alopecia": [
+    "Dermatología"
+  ],
+  "caida del pelo": [
+    "Dermatología"
+  ],
+  "caída del pelo": [
+    "Dermatología"
+  ],
+  "calvicie": [
+    "Dermatología"
+  ],
+  "verrugas": [
+    "Dermatología"
+  ],
+  "hongos": [
+    "Dermatología"
+  ],
+  "urticaria": [
+    "Dermatología",
+    "Alergología"
+  ],
+  "sarpullido": [
+    "Dermatología",
+    "Alergología"
+  ],
+  "picor de piel": [
+    "Dermatología",
+    "Alergología"
+  ],
+  "rosacea": [
+    "Dermatología"
+  ],
+  "rosácea": [
+    "Dermatología"
+  ],
+  "vitiligo": [
+    "Dermatología"
+  ],
+  "vitíligo": [
+    "Dermatología"
+  ],
+  "queratosis": [
+    "Dermatología"
+  ],
+  "dermatologo": [
+    "Dermatología"
+  ],
+  "dermatólogo": [
+    "Dermatología"
+  ],
+  "dermatologia": [
+    "Dermatología"
+  ],
+  "dermatología": [
+    "Dermatología"
+  ],
+  "prostata": [
+    "Urología"
+  ],
+  "próstata": [
+    "Urología"
+  ],
+  "prostatitis": [
+    "Urología"
+  ],
+  "incontinencia urinaria": [
+    "Urología",
+    "Rehabilitacion Suelo Pelvico. Incontinencia Urinaria"
+  ],
+  "incontinencia": [
+    "Urología",
+    "Rehabilitacion Suelo Pelvico. Incontinencia Urinaria"
+  ],
+  "impotencia": [
+    "Urología"
+  ],
+  "disfuncion erectil": [
+    "Urología"
+  ],
+  "disfunción eréctil": [
+    "Urología"
+  ],
+  "piedras en el rinon": [
+    "Urología",
+    "Nefrología"
+  ],
+  "piedras en el riñón": [
+    "Urología",
+    "Nefrología"
+  ],
+  "calculos renales": [
+    "Urología",
+    "Nefrología"
+  ],
+  "cálculos renales": [
+    "Urología",
+    "Nefrología"
+  ],
+  "infeccion de orina": [
+    "Urología",
+    "Medicina General"
+  ],
+  "infección de orina": [
+    "Urología",
+    "Medicina General"
+  ],
+  "cistitis": [
+    "Urología",
+    "Medicina General"
+  ],
+  "sangre en la orina": [
+    "Urología",
+    "Nefrología"
+  ],
+  "vasectomia": [
+    "Urología"
+  ],
+  "vasectomía": [
+    "Urología"
+  ],
+  "fimosis": [
+    "Urología",
+    "Pediatría"
+  ],
+  "circuncision": [
+    "Urología",
+    "Pediatría"
+  ],
+  "circuncisión": [
+    "Urología",
+    "Pediatría"
+  ],
+  "urologo": [
+    "Urología"
+  ],
+  "urólogo": [
+    "Urología"
+  ],
+  "urologia": [
+    "Urología"
+  ],
+  "urología": [
+    "Urología"
+  ],
+  "rinones": [
+    "Nefrología"
+  ],
+  "riñones": [
+    "Nefrología"
+  ],
+  "rinon": [
+    "Nefrología"
+  ],
+  "riñón": [
+    "Nefrología"
+  ],
+  "dialisis": [
+    "Nefrología"
+  ],
+  "diálisis": [
+    "Nefrología"
+  ],
+  "insuficiencia renal": [
+    "Nefrología"
+  ],
+  "nefrologo": [
+    "Nefrología"
+  ],
+  "nefrólogo": [
+    "Nefrología"
+  ],
+  "nefrologia": [
+    "Nefrología"
+  ],
+  "nefrología": [
+    "Nefrología"
+  ],
+  "regla": [
+    "Obstetricia/Ginecología"
+  ],
+  "menstruacion": [
+    "Obstetricia/Ginecología"
+  ],
+  "menstruación": [
+    "Obstetricia/Ginecología"
+  ],
+  "dolor de regla": [
+    "Obstetricia/Ginecología"
+  ],
+  "embarazo": [
+    "Obstetricia/Ginecología",
+    "Matronas"
+  ],
+  "gestacion": [
+    "Obstetricia/Ginecología",
+    "Matronas"
+  ],
+  "gestación": [
+    "Obstetricia/Ginecología",
+    "Matronas"
+  ],
+  "parto": [
+    "Obstetricia/Ginecología",
+    "Matronas"
+  ],
+  "menopausia": [
+    "Obstetricia/Ginecología"
+  ],
+  "sofocos": [
+    "Obstetricia/Ginecología"
+  ],
+  "ovarios": [
+    "Obstetricia/Ginecología"
+  ],
+  "miomas": [
+    "Obstetricia/Ginecología"
+  ],
+  "endometriosis": [
+    "Obstetricia/Ginecología"
+  ],
+  "ovarios poliquisticos": [
+    "Obstetricia/Ginecología"
+  ],
+  "ovarios poliquísticos": [
+    "Obstetricia/Ginecología"
+  ],
+  "citologia": [
+    "Obstetricia/Ginecología"
+  ],
+  "citología": [
+    "Obstetricia/Ginecología"
+  ],
+  "papanicolaou": [
+    "Obstetricia/Ginecología"
+  ],
+  "revision ginecologica": [
+    "Obstetricia/Ginecología"
+  ],
+  "revisión ginecológica": [
+    "Obstetricia/Ginecología"
+  ],
+  "anticonceptivos": [
+    "Obstetricia/Ginecología"
+  ],
+  "esterilidad": [
+    "Obstetricia/Ginecología"
+  ],
+  "infertilidad": [
+    "Obstetricia/Ginecología",
+    "Urología"
+  ],
+  "ginecologo": [
+    "Obstetricia/Ginecología"
+  ],
+  "ginecólogo": [
+    "Obstetricia/Ginecología"
+  ],
+  "ginecologia": [
+    "Obstetricia/Ginecología"
+  ],
+  "ginecología": [
+    "Obstetricia/Ginecología"
+  ],
+  "matrona": [
+    "Matronas",
+    "Obstetricia/Ginecología"
+  ],
+  "comadrona": [
+    "Matronas",
+    "Obstetricia/Ginecología"
+  ],
+  "preparacion al parto": [
+    "Matronas",
+    "Obstetricia/Ginecología"
+  ],
+  "preparación al parto": [
+    "Matronas",
+    "Obstetricia/Ginecología"
+  ],
+  "mama": [
+    "Mamografias",
+    "Obstetricia/Ginecología"
+  ],
+  "pecho de mujer": [
+    "Mamografias",
+    "Obstetricia/Ginecología"
+  ],
+  "mamografia": [
+    "Mamografias"
+  ],
+  "mamografía": [
+    "Mamografias"
+  ],
+  "bulto en el pecho": [
+    "Mamografias",
+    "Obstetricia/Ginecología",
+    "Oncología Medica"
+  ],
+  "cancer de mama": [
+    "Oncología Medica",
+    "Mamografias"
+  ],
+  "cáncer de mama": [
+    "Oncología Medica",
+    "Mamografias"
+  ],
+  "dolor de espalda": [
+    "Traumatología",
+    "Reumatología",
+    "Medicina General"
+  ],
+  "dolor lumbar": [
+    "Traumatología",
+    "Reumatología"
+  ],
+  "lumbago": [
+    "Traumatología",
+    "Reumatología"
+  ],
+  "ciatica": [
+    "Traumatología",
+    "Reumatología",
+    "Neurología"
+  ],
+  "ciática": [
+    "Traumatología",
+    "Reumatología",
+    "Neurología"
+  ],
+  "dolor cervical": [
+    "Traumatología",
+    "Reumatología"
+  ],
+  "torticolis": [
+    "Traumatología",
+    "Medicina General"
+  ],
+  "tortícolis": [
+    "Traumatología",
+    "Medicina General"
+  ],
+  "dolor de rodilla": [
+    "Traumatología"
+  ],
+  "lesion de rodilla": [
+    "Traumatología"
+  ],
+  "lesión de rodilla": [
+    "Traumatología"
+  ],
+  "ligamento cruzado": [
+    "Traumatología"
+  ],
+  "menisco": [
+    "Traumatología"
+  ],
+  "dolor de hombro": [
+    "Traumatología"
+  ],
+  "dolor de codo": [
+    "Traumatología"
+  ],
+  "tendinitis": [
+    "Traumatología",
+    "Rehabilitación"
+  ],
+  "epicondilitis": [
+    "Traumatología"
+  ],
+  "codo de tenista": [
+    "Traumatología"
+  ],
+  "tunel carpiano": [
+    "Traumatología",
+    "Neurología"
+  ],
+  "túnel carpiano": [
+    "Traumatología",
+    "Neurología"
+  ],
+  "dolor de muneca": [
+    "Traumatología"
+  ],
+  "dolor de muñeca": [
+    "Traumatología"
+  ],
+  "dolor de cuello": [
+    "Traumatología",
+    "Reumatología"
+  ],
+  "dolor de cadera": [
+    "Traumatología"
+  ],
+  "fractura": [
+    "Traumatología"
+  ],
+  "fisura": [
+    "Traumatología"
+  ],
+  "rotura": [
+    "Traumatología"
+  ],
+  "esguince": [
+    "Traumatología"
+  ],
+  "luxacion": [
+    "Traumatología"
+  ],
+  "luxación": [
+    "Traumatología"
+  ],
+  "dislocacion": [
+    "Traumatología"
+  ],
+  "dislocación": [
+    "Traumatología"
+  ],
+  "escoliosis": [
+    "Traumatología"
+  ],
+  "ortopeda": [
+    "Traumatología"
+  ],
+  "ortopedia": [
+    "Traumatología"
+  ],
+  "traumatologo": [
+    "Traumatología"
+  ],
+  "traumatólogo": [
+    "Traumatología"
+  ],
+  "traumatologia": [
+    "Traumatología"
+  ],
+  "traumatología": [
+    "Traumatología"
+  ],
+  "lesion deportiva": [
+    "Traumatología",
+    "Medicina Deportiva"
+  ],
+  "lesión deportiva": [
+    "Traumatología",
+    "Medicina Deportiva"
+  ],
+  "rehabilitacion": [
+    "Rehabilitación",
+    "Fisioterapia"
+  ],
+  "rehabilitación": [
+    "Rehabilitación",
+    "Fisioterapia"
+  ],
+  "fisioterapia": [
+    "Fisioterapia"
+  ],
+  "fisioterapeuta": [
+    "Fisioterapia"
+  ],
+  "artrosis": [
+    "Reumatología",
+    "Traumatología"
+  ],
+  "artritis": [
+    "Reumatología"
+  ],
+  "artritis reumatoide": [
+    "Reumatología"
+  ],
+  "fibromialgia": [
+    "Reumatología"
+  ],
+  "gota": [
+    "Reumatología"
+  ],
+  "lupus": [
+    "Reumatología"
+  ],
+  "esclerodermia": [
+    "Reumatología"
+  ],
+  "osteoporosis": [
+    "Reumatología",
+    "Endocrinología"
+  ],
+  "reumatologo": [
+    "Reumatología"
+  ],
+  "reumatólogo": [
+    "Reumatología"
+  ],
+  "reumatologia": [
+    "Reumatología"
+  ],
+  "reumatología": [
+    "Reumatología"
+  ],
+  "densitometria": [
+    "Densitometria Osea"
+  ],
+  "densitometría": [
+    "Densitometria Osea"
+  ],
+  "diabetes": [
+    "Endocrinología"
+  ],
+  "azucar alta": [
+    "Endocrinología",
+    "Medicina General"
+  ],
+  "azúcar alta": [
+    "Endocrinología",
+    "Medicina General"
+  ],
+  "glucosa alta": [
+    "Endocrinología",
+    "Medicina General"
+  ],
+  "tiroides": [
+    "Endocrinología"
+  ],
+  "hipotiroidismo": [
+    "Endocrinología"
+  ],
+  "hipertiroidismo": [
+    "Endocrinología"
+  ],
+  "bocio": [
+    "Endocrinología"
+  ],
+  "hashimoto": [
+    "Endocrinología"
+  ],
+  "colesterol": [
+    "Endocrinología",
+    "Medicina General"
+  ],
+  "trigliceridos": [
+    "Endocrinología",
+    "Medicina General"
+  ],
+  "triglicéridos": [
+    "Endocrinología",
+    "Medicina General"
+  ],
+  "obesidad": [
+    "Endocrinología",
+    "Nutricion Y Dietetica"
+  ],
+  "sobrepeso": [
+    "Endocrinología",
+    "Nutricion Y Dietetica"
+  ],
+  "perder peso": [
+    "Nutricion Y Dietetica",
+    "Endocrinología"
+  ],
+  "adelgazar": [
+    "Nutricion Y Dietetica",
+    "Endocrinología"
+  ],
+  "dieta": [
+    "Nutricion Y Dietetica"
+  ],
+  "nutricionista": [
+    "Nutricion Y Dietetica"
+  ],
+  "nutricion": [
+    "Nutricion Y Dietetica"
+  ],
+  "nutrición": [
+    "Nutricion Y Dietetica"
+  ],
+  "dietista": [
+    "Nutricion Y Dietetica"
+  ],
+  "endocrinologo": [
+    "Endocrinología"
+  ],
+  "endocrinólogo": [
+    "Endocrinología"
+  ],
+  "endocrino": [
+    "Endocrinología"
+  ],
+  "hormonas": [
+    "Endocrinología"
+  ],
+  "ansiedad": [
+    "Psiquiatría",
+    "Psicología"
+  ],
+  "estres": [
+    "Psicología",
+    "Psiquiatría"
+  ],
+  "estrés": [
+    "Psicología",
+    "Psiquiatría"
+  ],
+  "ataques de panico": [
+    "Psiquiatría",
+    "Psicología"
+  ],
+  "ataques de pánico": [
+    "Psiquiatría",
+    "Psicología"
+  ],
+  "depresion": [
+    "Psiquiatría",
+    "Psicología"
+  ],
+  "depresión": [
+    "Psiquiatría",
+    "Psicología"
+  ],
+  "tristeza": [
+    "Psicología",
+    "Psiquiatría"
+  ],
+  "insomnio": [
+    "Psiquiatría",
+    "Neurología"
+  ],
+  "no puedo dormir": [
+    "Psiquiatría",
+    "Neurología"
+  ],
+  "trastorno del sueno": [
+    "Psiquiatría",
+    "Neurología"
+  ],
+  "trastorno del sueño": [
+    "Psiquiatría",
+    "Neurología"
+  ],
+  "tdah": [
+    "Psiquiatría",
+    "Psicología"
+  ],
+  "deficit de atencion": [
+    "Psiquiatría",
+    "Psicología"
+  ],
+  "déficit de atención": [
+    "Psiquiatría",
+    "Psicología"
+  ],
+  "anorexia": [
+    "Psiquiatría",
+    "Psicología",
+    "Endocrinología"
+  ],
+  "bulimia": [
+    "Psiquiatría",
+    "Psicología",
+    "Endocrinología"
+  ],
+  "trastorno alimentario": [
+    "Psiquiatría",
+    "Psicología"
+  ],
+  "autismo": [
+    "Psicología",
+    "Psiquiatría",
+    "Pediatría"
+  ],
+  "fobia": [
+    "Psicología",
+    "Psiquiatría"
+  ],
+  "estres postraumatico": [
+    "Psiquiatría",
+    "Psicología"
+  ],
+  "estrés postraumático": [
+    "Psiquiatría",
+    "Psicología"
+  ],
+  "duelo": [
+    "Psicología"
+  ],
+  "psicologo": [
+    "Psicología"
+  ],
+  "psicólogo": [
+    "Psicología"
+  ],
+  "psicologia": [
+    "Psicología"
+  ],
+  "psicología": [
+    "Psicología"
+  ],
+  "psiquiatra": [
+    "Psiquiatría"
+  ],
+  "psiquiatria": [
+    "Psiquiatría"
+  ],
+  "psiquiatría": [
+    "Psiquiatría"
+  ],
+  "terapia de pareja": [
+    "Psicología"
+  ],
+  "terapia familiar": [
+    "Psicología"
+  ],
+  "adiccion": [
+    "Psiquiatría",
+    "Psicología"
+  ],
+  "adicción": [
+    "Psiquiatría",
+    "Psicología"
+  ],
+  "pediatria": [
+    "Pediatría"
+  ],
+  "pediatría": [
+    "Pediatría"
+  ],
+  "pediatra": [
+    "Pediatría"
+  ],
+  "nino": [
+    "Pediatría"
+  ],
+  "niño": [
+    "Pediatría"
+  ],
+  "niña": [
+    "Pediatría"
+  ],
+  "hijo": [
+    "Pediatría"
+  ],
+  "hija": [
+    "Pediatría"
+  ],
+  "bebe": [
+    "Pediatría"
+  ],
+  "bebé": [
+    "Pediatría"
+  ],
+  "lactante": [
+    "Pediatría"
+  ],
+  "recien nacido": [
+    "Pediatría"
+  ],
+  "recién nacido": [
+    "Pediatría"
+  ],
+  "fiebre": [
+    "Pediatría",
+    "Medicina General"
+  ],
+  "fiebre alta": [
+    "Pediatría",
+    "Medicina General"
+  ],
+  "varicela": [
+    "Pediatría",
+    "Dermatología"
+  ],
+  "sarampion": [
+    "Pediatría"
+  ],
+  "sarampión": [
+    "Pediatría"
+  ],
+  "paperas": [
+    "Pediatría"
+  ],
+  "rubeola": [
+    "Pediatría"
+  ],
+  "rubéola": [
+    "Pediatría"
+  ],
+  "vacunas": [
+    "Pediatría",
+    "Medicina General"
+  ],
+  "vacuna": [
+    "Pediatría",
+    "Medicina General"
+  ],
+  "revision pediatrica": [
+    "Pediatría"
+  ],
+  "revisión pediátrica": [
+    "Pediatría"
+  ],
+  "control de niño sano": [
+    "Pediatría"
+  ],
+  "lactancia": [
+    "Pediatría",
+    "Matronas"
+  ],
+  "colicos del lactante": [
+    "Pediatría"
+  ],
+  "cólicos del lactante": [
+    "Pediatría"
+  ],
+  "urgencias pediatricas": [
+    "Servicio De Urgencias Permanente-Pediatricas",
+    "Pediatría"
+  ],
+  "urgencias pediátricas": [
+    "Servicio De Urgencias Permanente-Pediatricas",
+    "Pediatría"
+  ],
+  "cirugia pediatrica": [
+    "Cirugia Pediatrica",
+    "Pediatría"
+  ],
+  "cirugía pediátrica": [
+    "Cirugia Pediatrica",
+    "Pediatría"
+  ],
+  "retraso del habla": [
+    "Logopedia",
+    "Pediatría"
+  ],
+  "cancer": [
+    "Oncología Medica"
+  ],
+  "cáncer": [
+    "Oncología Medica"
+  ],
+  "tumor": [
+    "Oncología Medica"
+  ],
+  "neoplasia": [
+    "Oncología Medica"
+  ],
+  "metastasis": [
+    "Oncología Medica"
+  ],
+  "metástasis": [
+    "Oncología Medica"
+  ],
+  "quimioterapia": [
+    "Oncología Medica"
+  ],
+  "radioterapia": [
+    "Oncologia Radioterap"
+  ],
+  "oncologo": [
+    "Oncología Medica"
+  ],
+  "oncólogo": [
+    "Oncología Medica"
+  ],
+  "oncologia": [
+    "Oncología Medica"
+  ],
+  "oncología": [
+    "Oncología Medica"
+  ],
+  "biopsia": [
+    "Anatomia Patologica",
+    "Oncología Medica"
+  ],
+  "leucemia": [
+    "Hematología/Hemoterapia",
+    "Oncología Medica"
+  ],
+  "linfoma": [
+    "Hematología/Hemoterapia",
+    "Oncología Medica"
+  ],
+  "anemia": [
+    "Hematología/Hemoterapia",
+    "Medicina Interna"
+  ],
+  "ferritina baja": [
+    "Hematología/Hemoterapia"
+  ],
+  "coagulacion": [
+    "Hematología/Hemoterapia"
+  ],
+  "coagulación": [
+    "Hematología/Hemoterapia"
+  ],
+  "hemorragia": [
+    "Hematología/Hemoterapia"
+  ],
+  "hematologo": [
+    "Hematología/Hemoterapia"
+  ],
+  "hematólogo": [
+    "Hematología/Hemoterapia"
+  ],
+  "hematologia": [
+    "Hematología/Hemoterapia"
+  ],
+  "hematología": [
+    "Hematología/Hemoterapia"
+  ],
+  "alergia": [
+    "Alergología"
+  ],
+  "alergias": [
+    "Alergología"
+  ],
+  "polen": [
+    "Alergología"
+  ],
+  "acaros": [
+    "Alergología"
+  ],
+  "ácaros": [
+    "Alergología"
+  ],
+  "alergia alimentaria": [
+    "Alergología"
+  ],
+  "intolerancia": [
+    "Alergología",
+    "Aparato Digestivo"
+  ],
+  "alergologo": [
+    "Alergología"
+  ],
+  "alergólogo": [
+    "Alergología"
+  ],
+  "alergologia": [
+    "Alergología"
+  ],
+  "alergología": [
+    "Alergología"
+  ],
+  "cirugia plastica": [
+    "Cir.Plastica/Reparad"
+  ],
+  "cirugía plástica": [
+    "Cir.Plastica/Reparad"
+  ],
+  "cirugia estetica": [
+    "Cir.Plastica/Reparad"
+  ],
+  "cirugía estética": [
+    "Cir.Plastica/Reparad"
+  ],
+  "quemaduras": [
+    "Cir.Plastica/Reparad"
+  ],
+  "reconstruccion": [
+    "Cir.Plastica/Reparad"
+  ],
+  "reconstrucción": [
+    "Cir.Plastica/Reparad"
+  ],
+  "rinoplastia": [
+    "Cir.Plastica/Reparad",
+    "Otorrinolaringología"
+  ],
+  "implante de mama": [
+    "Cir.Plastica/Reparad"
+  ],
+  "abdominoplastia": [
+    "Cir.Plastica/Reparad"
+  ],
+  "liposuccion": [
+    "Cir.Plastica/Reparad"
+  ],
+  "liposucción": [
+    "Cir.Plastica/Reparad"
+  ],
+  "cirugia maxilofacial": [
+    "Cirugia Maxilofacial"
+  ],
+  "cirugía maxilofacial": [
+    "Cirugia Maxilofacial"
+  ],
+  "mandibula": [
+    "Cirugia Maxilofacial"
+  ],
+  "mandíbula": [
+    "Cirugia Maxilofacial"
+  ],
+  "muelas del juicio": [
+    "Cirugia Maxilofacial",
+    "Odontologia"
+  ],
+  "cordales": [
+    "Cirugia Maxilofacial",
+    "Odontologia"
+  ],
+  "implantes dentales": [
+    "Odontologia"
+  ],
+  "dolor de muelas": [
+    "Odontologia"
+  ],
+  "dolor dental": [
+    "Odontologia"
+  ],
+  "dentista": [
+    "Odontologia"
+  ],
+  "ortodoncia": [
+    "Odontologia"
+  ],
+  "endodoncia": [
+    "Odontologia"
+  ],
+  "caries": [
+    "Odontologia"
+  ],
+  "encias": [
+    "Odontologia"
+  ],
+  "encías": [
+    "Odontologia"
+  ],
+  "limpieza dental": [
+    "Odontologia"
+  ],
+  "ortopantomografia": [
+    "Ortopantomografia",
+    "Odontologia"
+  ],
+  "ortopantomografía": [
+    "Ortopantomografia",
+    "Odontologia"
+  ],
+  "callos": [
+    "Podologia"
+  ],
+  "juanetes": [
+    "Podologia"
+  ],
+  "uña encarnada": [
+    "Podologia"
+  ],
+  "una encarnada": [
+    "Podologia"
+  ],
+  "pie plano": [
+    "Podologia",
+    "Traumatología"
+  ],
+  "fascitis plantar": [
+    "Podologia",
+    "Traumatología"
+  ],
+  "espolon calcaneo": [
+    "Podologia",
+    "Traumatología"
+  ],
+  "espolón calcaneo": [
+    "Podologia",
+    "Traumatología"
+  ],
+  "podologo": [
+    "Podologia"
+  ],
+  "podólogo": [
+    "Podologia"
+  ],
+  "podologia": [
+    "Podologia"
+  ],
+  "podología": [
+    "Podologia"
+  ],
+  "plantillas": [
+    "Podologia"
+  ],
+  "logopedia": [
+    "Logopedia"
+  ],
+  "logopeda": [
+    "Logopedia"
+  ],
+  "tartamudez": [
+    "Logopedia"
+  ],
+  "problemas de habla": [
+    "Logopedia"
+  ],
+  "dislalia": [
+    "Logopedia"
+  ],
+  "afasia": [
+    "Logopedia",
+    "Neurología"
+  ],
+  "rehabilitacion de voz": [
+    "Logopedia"
+  ],
+  "abuelo": [
+    "Geriatría"
+  ],
+  "abuela": [
+    "Geriatría"
+  ],
+  "anciano": [
+    "Geriatría"
+  ],
+  "anciana": [
+    "Geriatría"
+  ],
+  "personas mayores": [
+    "Geriatría"
+  ],
+  "geriatra": [
+    "Geriatría"
+  ],
+  "geriatria": [
+    "Geriatría"
+  ],
+  "geriatría": [
+    "Geriatría"
+  ],
+  "deterioro cognitivo": [
+    "Geriatría",
+    "Neurología",
+    "Psiquiatría"
+  ],
+  "medicina interna": [
+    "Medicina Interna"
+  ],
+  "internista": [
+    "Medicina Interna"
+  ],
+  "vih": [
+    "Medicina Interna"
+  ],
+  "infeccion general": [
+    "Medicina Interna",
+    "Medicina General"
+  ],
+  "infección general": [
+    "Medicina Interna",
+    "Medicina General"
+  ],
+  "medico de cabecera": [
+    "Medicina General"
+  ],
+  "médico de cabecera": [
+    "Medicina General"
+  ],
+  "medico general": [
+    "Medicina General"
+  ],
+  "médico general": [
+    "Medicina General"
+  ],
+  "medicina general": [
+    "Medicina General"
+  ],
+  "medicina familiar": [
+    "Medicina General"
+  ],
+  "consulta general": [
+    "Medicina General"
+  ],
+  "revision medica": [
+    "Medicina General"
+  ],
+  "revisión médica": [
+    "Medicina General"
+  ],
+  "chequeo": [
+    "Medicina General"
+  ],
+  "malestar general": [
+    "Medicina General"
+  ],
+  "no me encuentro bien": [
+    "Medicina General"
+  ],
+  "analitica": [
+    "Analisis Clinicos"
+  ],
+  "analítica": [
+    "Analisis Clinicos"
+  ],
+  "analisis de sangre": [
+    "Analisis Clinicos"
+  ],
+  "análisis de sangre": [
+    "Analisis Clinicos"
+  ],
+  "analisis de orina": [
+    "Analisis Clinicos"
+  ],
+  "análisis de orina": [
+    "Analisis Clinicos"
+  ],
+  "ecografia": [
+    "Ecografias",
+    "Diagnost. Por Imagen"
+  ],
+  "ecografía": [
+    "Ecografias",
+    "Diagnost. Por Imagen"
+  ],
+  "resonancia": [
+    "Resonancia Magnetica Nuclear - Rmn",
+    "Diagnost. Por Imagen"
+  ],
+  "resonancia magnetica": [
+    "Resonancia Magnetica Nuclear - Rmn"
+  ],
+  "resonancia magnética": [
+    "Resonancia Magnetica Nuclear - Rmn"
+  ],
+  "tac craneal": [
+    "Tomografia Axial Computerizada - Tac"
+  ],
+  "tac abdominal": [
+    "Tomografia Axial Computerizada - Tac"
+  ],
+  "tac toracico": [
+    "Tomografia Axial Computerizada - Tac"
+  ],
+  "tac torácico": [
+    "Tomografia Axial Computerizada - Tac"
+  ],
+  "scanner": [
+    "Tomografia Axial Computerizada - Tac"
+  ],
+  "tomografia": [
+    "Tomografia Axial Computerizada - Tac"
+  ],
+  "tomografía": [
+    "Tomografia Axial Computerizada - Tac"
+  ],
+  "radiografia": [
+    "Diagnost. Por Imagen"
+  ],
+  "radiografía": [
+    "Diagnost. Por Imagen"
+  ],
+  "diagnostico por imagen": [
+    "Diagnost. Por Imagen"
+  ],
+  "diagnóstico por imagen": [
+    "Diagnost. Por Imagen"
+  ],
+  "anatomia patologica": [
+    "Anatomia Patologica"
+  ],
+  "anatomía patológica": [
+    "Anatomia Patologica"
+  ],
+  "medicina nuclear": [
+    "Medicina Nuclear"
+  ],
+  "pet scan": [
+    "Medicina Nuclear"
+  ],
+  "gammagrafia": [
+    "Medicina Nuclear"
+  ],
+  "gammagrafía": [
+    "Medicina Nuclear"
+  ],
+  "urgencias": [
+    "Servicio De Urgencias Permanente-Generales",
+    "Urg. Hospitalarias"
+  ],
+  "urgencia": [
+    "Servicio De Urgencias Permanente-Generales",
+    "Urg. Hospitalarias"
+  ],
+  "urgencias hospital": [
+    "Urg. Hospitalarias"
+  ],
+  "urgencias 24 horas": [
+    "Servicio De Urgencias Permanente-Generales",
+    "Urg. Hospitalarias"
+  ],
+  "urgencias traumatologicas": [
+    "Servicio De Urgencias Permanente-Traumatologicas"
+  ],
+  "urgencias traumatológicas": [
+    "Servicio De Urgencias Permanente-Traumatologicas"
+  ],
+  "urgencias ginecologicas": [
+    "Servicio De Urgencias Permanente-Obs.-Ginecologicas"
+  ],
+  "urgencias ginecológicas": [
+    "Servicio De Urgencias Permanente-Obs.-Ginecologicas"
+  ],
+  "urgencias oftalmologicas": [
+    "Servicio De Urgencias Permanente-Oftalmologicas"
+  ],
+  "urgencias oftalmológicas": [
+    "Servicio De Urgencias Permanente-Oftalmologicas"
+  ],
+  "urgencias cardiologicas": [
+    "Servicio De Urgencias Permanente-Cardiologicas"
+  ],
+  "urgencias cardiológicas": [
+    "Servicio De Urgencias Permanente-Cardiologicas"
+  ],
+  "urgencias psiquiatricas": [
+    "Servicio De Urgencias Permanente-Psiquiatricas"
+  ],
+  "urgencias psiquiátricas": [
+    "Servicio De Urgencias Permanente-Psiquiatricas"
+  ],
+  "carnet de conducir": [
+    "Reconocimiento Carnet Conducir/Caza"
+  ],
+  "carnet conducir": [
+    "Reconocimiento Carnet Conducir/Caza"
+  ],
+  "renovar carnet": [
+    "Reconocimiento Carnet Conducir/Caza"
+  ],
+  "carnet de caza": [
+    "Reconocimiento Carnet Conducir/Caza"
+  ],
+  "preoperatorio": [
+    "Preoperatorios",
+    "Anestesia/Reanimacio"
+  ],
+  "anestesia": [
+    "Anestesia/Reanimacio"
+  ],
+  "anestesista": [
+    "Anestesia/Reanimacio"
+  ],
+  "medicina deportiva": [
+    "Medicina Deportiva"
+  ],
+  "examen deportivo": [
+    "Medicina Deportiva"
+  ],
+  "certificado deportivo": [
+    "Medicina Deportiva"
+  ],
+  "suelo pelvico": [
+    "Rehabilitacion Suelo Pelvico. Incontinencia Urinaria",
+    "Fisioterapia"
+  ],
+  "suelo pélvico": [
+    "Rehabilitacion Suelo Pelvico. Incontinencia Urinaria",
+    "Fisioterapia"
+  ],
+  "incontinencia postparto": [
+    "Rehabilitacion Suelo Pelvico. Incontinencia Urinaria",
+    "Fisioterapia"
+  ],
+  "dolor cronico": [
+    "Tratamiento De Dolor",
+    "Reumatología"
+  ],
+  "dolor crónico": [
+    "Tratamiento De Dolor",
+    "Reumatología"
+  ],
+  "tratamiento del dolor": [
+    "Tratamiento De Dolor"
+  ],
+  "clinica del dolor": [
+    "Tratamiento De Dolor"
+  ],
+  "clínica del dolor": [
+    "Tratamiento De Dolor"
+  ],
+  "infeccion de transmision sexual": [
+    "Urología",
+    "Obstetricia/Ginecología",
+    "Dermatología"
+  ],
+  "infección de transmisión sexual": [
+    "Urología",
+    "Obstetricia/Ginecología",
+    "Dermatología"
+  ],
+  "sifilis": [
+    "Dermatología",
+    "Medicina Interna"
+  ],
+  "sífilis": [
+    "Dermatología",
+    "Medicina Interna"
+  ],
+  "gonorrea": [
+    "Urología",
+    "Obstetricia/Ginecología"
+  ],
+  "herpes": [
+    "Dermatología",
+    "Obstetricia/Ginecología"
+  ],
+  "papiloma": [
+    "Obstetricia/Ginecología",
+    "Dermatología"
+  ]
+}

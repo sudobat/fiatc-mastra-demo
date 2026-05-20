@@ -6,6 +6,7 @@ import { MSSQLStore } from '@mastra/mssql';
 import { Observability, MastraStorageExporter, MastraPlatformExporter, SensitiveDataFilter } from '@mastra/observability';
 import { weatherWorkflow } from './workflows/weather-workflow';
 import { weatherAgent } from './agents/weather-agent';
+import { guiaMedicaAgent } from './agents/guia-medica-agent';
 import { mastraMonitoringAgent } from './agents/mastra-monitoring-agent';
 import { toolCallAppropriatenessScorer, completenessScorer, translationScorer } from './scorers/weather-scorer';
 import { MastraEditor } from '@mastra/editor';
@@ -61,7 +62,7 @@ function createStorage() {
 
 export const mastra = new Mastra({
   workflows: { weatherWorkflow },
-  agents: { weatherAgent, mastraMonitoringAgent },
+  agents: { weatherAgent, guiaMedicaAgent, mastraMonitoringAgent },
   scorers: { toolCallAppropriatenessScorer, completenessScorer, translationScorer },
   storage: createStorage(),
   logger: new PinoLogger({
